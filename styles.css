@@ -1,4 +1,4 @@
-/* tipografías:
+/* tipografías google REGLAS CSS:
 
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Noto Serif', serif;
@@ -29,6 +29,7 @@ font-family: 'Noto Serif Display', serif;
 *{
     margin: 0px;
     padding: 0px;
+    color: #091DD0;
  }
 
  /* para que no se vean las líneas de los enlces */
@@ -54,7 +55,8 @@ font-family: 'Noto Serif Display', serif;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* border-bottom:solid 2px #091DD0; */
+    background-color: rgba(0, 0, 0, 0.1);
 
   }
        .portada{
@@ -72,16 +74,16 @@ font-family: 'Noto Serif Display', serif;
                .foto_portada{
                  width: 75%;
                  height: 100%;
-                /*  border: 20px solid rgba(0, 0, 0, 0.3); */
+                /*  border: 20px solid rgba(0, 0, 0, 0.3);  */
         
                 }
                .foto_portada img{
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                /* filter: brightness(90%); */
-                transform: scaleX(-1);
-                /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);  */
+                filter: brightness(70%); 
+                /* transform: scaleX(-1);  */
+               box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);  
 
                }
                .navbar_portada{
@@ -96,7 +98,7 @@ font-family: 'Noto Serif Display', serif;
                     .navbar_portada a{
                         width: 60%;
                         transform: rotate(90deg);
-                        color: #091DD0;
+                        /* color: #091DD0; */
                         text-align: center;
                         font-family: "Noto Serif";
                         font-size: 18px;
@@ -140,19 +142,17 @@ font-family: 'Noto Serif Display', serif;
         }
             .intro_titulo{
                 width: 100%;
-                color: #091DD0;
                 text-align: center;
                 font-family: 'Noto Serif Display', serif;
-                font-size: 55px;
+                font-size: 60px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 100px;
+                line-height: 90px;
                 padding-top: 50px;
 
             }
             .intro_parrafo{
                 width: 77%;
-                color: #091DD0;
                 text-align: center;
                 font-family: 'Aesthetic-Regular';
                 font-size: 20px;
@@ -204,7 +204,6 @@ font-family: 'Noto Serif Display', serif;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    color: #091DD0;
                     font-family: 'Aesthetic-Regular';
                     text-align: center;
                     font-size: 22px;
@@ -232,7 +231,6 @@ font-family: 'Noto Serif Display', serif;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                color: #091DD0;
                 text-align: center;
                 font-family: 'Noto Serif', serif;
                 font-size: 22px;
@@ -248,7 +246,6 @@ font-family: 'Noto Serif Display', serif;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                color: #091DD0;
                 font-family: 'Noto Serif', serif;
                 text-align: center;
                 font-size: 18px;
@@ -260,7 +257,6 @@ font-family: 'Noto Serif Display', serif;
             .conclusion_contacto{
                 height: 125px;
                 align-items: center;
-                color: #091DD0;
                 font-family: 'Aesthetic-Regular';
                 text-align: center;
                 font-size: 22px;
@@ -268,11 +264,6 @@ font-family: 'Noto Serif Display', serif;
                 font-weight: 400;
                 text-transform: lowercase;
                 text-shadow: 1px #091DD0;
-                
-            }
-                .conclusion_contacto a{
-           
-                color: #091DD0;
                 
             }
                   .conclusion_contacto a:hover{
@@ -325,6 +316,10 @@ footer{
         padding-top: 5%;
 
     }
+        #logo_footer{/* en páginas (enlace) */
+        height: 90px;
+        padding-top: 5%;
+       }
     footer p{
         width: 70%;
         height: auto;
@@ -359,6 +354,38 @@ footer{
             
             }
 
-      
+/* ----------------------------- NAVBAR DE ABOUT / CONTACT & WORK (PORTFOLIO) --------------------------------------------- */
+.paginas{
+    width: 100%;
+    height: auto;
+    background-color: #F5F5EC;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .navbar{
+       width: 100%;
+       height: 75px;
+       border-bottom: solid 2px #091DD0;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+    }
+         .logo_home{
+            height: 65px;
+            padding-top: 15px;
+         }
+ 
+/* ----------------------------- CONTACT.HTML --------------------------------------------- */
+
+.contact{/* ME QUEDO AQUÍ */
+    width: 70%;
+    height: 300px;
+    border: solid 2px #091DD0;
+    font-family: 'Aesthetic-Regular';
+}
            
            

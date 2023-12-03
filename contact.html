@@ -1,0 +1,96 @@
+<!-- © 2023 All rights reserved by Irene Becker Studio
+    | Tipografía Aesthetic Regurar: https://nirmanavisual.com/product/aesthetic 
+    Licencia Standar a nombre de Irene Herrero Becker-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no" /><!-- viewport  para el responsive-->
+        <title>IRENE BECKER CREATIVE STUDIO | CONTACT</title>
+        <link rel="icon" href="img/cursor_smile.png" sizes="16x16 32x32" type="image/png"><!-- Favicon -->
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen" /><!-- CSS -->
+        <link rel="stylesheet" type="js" href="formulario.js" media="screen" /><!-- JS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><!-- Tipografías -->
+    </head>
+    <body>
+        <main class="paginas">
+
+            <nav class="navbar"> <!-- NAVBAR -->
+                <a  href="index.html"><img class= "logo_home"src="logos/logo_creativeStudio_azul.png"></a>
+                <a  href="portfolio.html">{ WORK }</a>
+                <a  href="about.html">{ ABOUT }</a>
+                <a  href="#">{ CONTACT }</a>
+            </nav><!-- cierra navbar -->
+
+            <section class="contact">
+
+                <div class="direccion">
+            
+                  <h1>CONTACTO</h1>
+                  <h3>Irene Becker Studio
+                  <br>CP/ 28 231 Madrid - Spain</h3>
+            
+                </div>
+                <!-- FORMULARIO --> <!-- FUNCIONA PERFECTAMENTE  -->
+                <div class="formulario">
+            
+                  <form id="form">
+                        <div class="field">
+                            <label for="from_name">Nombre *</label>
+                            <input type="text" name="from_name" id="from_name" value="Ingresa tu nombre">
+                        </div>
+                        <div class="field">
+                            <label for="email_id">Email *</label>
+                            <input type="text" name="email_id" id="email_id" value="Ingresa tu email">
+                        </div>
+                        <div class="field">
+                            <label for="asunto">Asunto *</label>
+                            <input type="text" name="asunto" id="asunto" value="Escribe el asunto">
+                        </div>
+                        <div class="field" id="mensaje">
+                            <label class="mensaje_label"for="message" >Mensaje *</label>
+                            <input class="mensaje_input" type="text" name="message" id="message"  value="Escribe tu mensaje aquí...">
+                        </div>
+                            <input type="submit" id="button" value="Enviar" >
+                  </form>
+                </div><!-- cierro parte del formulario -->
+            </section>
+            
+                <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            
+                <script type="text/javascript">
+              emailjs.init('kxk7IDj4Tv5AxGLGN')
+                </script>
+                <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+                <script src="formulario.js"></script>
+
+            <section><!-- formulario -->
+
+            </section><!-- cierra formulario -->
+        
+    
+    
+        </main><!-- cierre  -->
+
+        <footer>
+            <nav class="footer_nav">
+                <a id="logo_footer"href="index.html"><img src="logos/logo_creativeStudio_beige.png"></a>
+                <a href="portfolio.html">{ WORK }</a>
+                <a href="about.html">{ ABOUT }</a>
+                <a href="#">{ CONTACT }</a>
+            </nav>
+            <nav class="footer_redes">
+                <a href="https://www.instagram.com/irenebeckerstudio/" target="_blank">instagram</a>
+                <a href="https://www.pinterest.es/superbeckergirl/" target="_blank">pinterest</a>
+                <a href="#">contacto</a>
+            </nav>
+            <p>© 2023 All Rigths Reserved. Designed by Irene Becker Studio. Madrid, Spain.</p>
+        </footer>
+
+</body>
+</html>
