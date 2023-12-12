@@ -10,16 +10,16 @@ font-family: 'Noto Serif Display', serif;
 @font-face {
    font-family: 'Aesthetic-Regular'; /* Comprada - https://nirmanavisual.com  - standar*/
    src: url(tipografías/Aesthetic-Regular.woff2) format('woff2'),
-       url(tipografías/Aesthetic-Regular.woff) format('woff'),
-       url(tipografías/Aesthetic-Regular.ttf) format('truetype');
+        url(tipografías/Aesthetic-Regular.woff) format('woff'),
+        url(tipografías/Aesthetic-Regular.ttf) format('truetype');
     font-style: normal;
     font-weight: 400;
 } 
 @font-face {
     font-family: 'nib-regular-pro'; /* Deassin - portfolio */
     src: url(tipografías/nib-regular-pro.woff2) format('woff2'),
-        url(tipografías/nib-regular-pro.woff) format('woff'),
-        url(tipografías/nib-regular-pro.ttf) format('truetype');
+         url(tipografías/nib-regular-pro.woff) format('woff'),
+         url(tipografías/nib-regular-pro.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
  } 
@@ -30,6 +30,8 @@ font-family: 'Noto Serif Display', serif;
     margin: 0px;
     padding: 0px;
     color: #091DD0;
+   /*  color: red; */
+
  }
 
  /* para que no se vean las líneas de los enlces */
@@ -40,12 +42,13 @@ font-family: 'Noto Serif Display', serif;
  body{
    overflow-x: auto;
    overflow-y:scroll;
-     
+ 
      width: 100%;
      height: auto;
      /* height: 2950px;     */
-     background-color: #F5F5EC;
-     cursor: url(img/cursor_azul.png) 16 16, auto; 
+     /*  background-color: rgb(251, 209, 234); */
+     background-color: #F5F5EC; 
+     cursor: url(img/cursores/cursor_azul.png) 16 16, auto; 
 
  }
  /* PORTADA */
@@ -56,8 +59,9 @@ font-family: 'Noto Serif Display', serif;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* border-bottom:solid 2px #091DD0; */
+    /* border:solid 2px #091DD0; */
     background-color: rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);   */
 
   }
        .portada{
@@ -68,7 +72,7 @@ font-family: 'Noto Serif Display', serif;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        font-variant-position: url(logos/logo_creativeStudio_black.png);
+        font-variant-position: url(logos/logo_creativeStudio_azul.png);
     
         }
                .foto_portada{
@@ -81,9 +85,9 @@ font-family: 'Noto Serif Display', serif;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                filter: brightness(70%); 
+                /* filter: brightness(70%);  */
                 /* transform: scaleX(-1);  */
-                box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);  
+                /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);   */
 
                }
                #logo{
@@ -107,7 +111,6 @@ font-family: 'Noto Serif Display', serif;
                         width: 120px;
                         height: auto;
                         transform: rotate(90deg);
-                        /* color: #091DD0; */
                         text-align: center;
                         font-family: "Noto Serif",serif;
                         font-size: 18px;
@@ -119,11 +122,11 @@ font-family: 'Noto Serif Display', serif;
                         .navbar_portada a:hover{
                             font-size: 19px;
                             font-weight: 500;
-                            cursor: url(img/cursor_rosa.png) 16 16, auto;
+                            cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
                         
                         }
 
-/* CUERPO SCROLL */
+/* CUERPO SkROLL */
     aside{
         width: 100%;
         height: auto;
@@ -165,19 +168,18 @@ font-family: 'Noto Serif Display', serif;
 
             }
             .intro img{
-                width: auto;
-                height: 300px; 
+                width: 65%;
+                height: auto;
                 padding-bottom: 50px; 
 
             }
             .servicios{
                 width: 100%;
-                height: 580px;
+                height: 530px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-
 
             } 
                  .servicios_titulo{
@@ -188,9 +190,8 @@ font-family: 'Noto Serif Display', serif;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    color: #091DD0;
                     text-align: center;
-                    font-family: 'Noto Serif', serif;;
+                    font-family: 'Noto Serif', serif;
                     font-size: 22px;
                     font-style: normal;
                     font-weight: 100;
@@ -199,10 +200,15 @@ font-family: 'Noto Serif Display', serif;
                  }
                  .servicios_categorias{
                     width: 100%;
-                    height: 500px;
-                    background-image: url(img/fondo.jpg);
+                    height: 450px;
+                   /*  background-image: url(img/fondo2.jpg); */
+                   /*  opacity: 80%; */
+                    background-image: url(velvet_inside.png);
                     background-repeat: no-repeat;
                     background-size: cover;
+                    background-position: center;
+                    /* filter: brightness(50%);  */
+
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -212,11 +218,17 @@ font-family: 'Noto Serif Display', serif;
                     font-size: 22px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 65px;
+                    line-height: 60px;
                     text-transform: lowercase;
-                    text-shadow: 1px #091DD0;/* bold */
+                    text-shadow: 3px #091DD0;/* bold */
                     
                 }
+                .servicios_categorias p{
+                    background-color: pink;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+                    
         .conclusion{
             width: 100%;
             height: 600px;
@@ -259,6 +271,7 @@ font-family: 'Noto Serif Display', serif;
             }
             .conclusion_contacto{
                 height: 125px;
+               /*  height:auto; */
                 align-items: center;
                 font-family: 'Aesthetic-Regular';
                 text-align: center;
@@ -269,9 +282,13 @@ font-family: 'Noto Serif Display', serif;
                 text-shadow: 1px #091DD0;
                 
             }
+                 /*  .conclusion_contacto a{
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                  }  */
                   .conclusion_contacto a:hover{
                     font-size: 24px;
-                    cursor: url(img/cursor_rosa.png) 16 16, auto;
+                    cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
 
                 }
 footer{
@@ -288,7 +305,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: url(img/cursor_rosa.png) 16 16, auto;
+    cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
 }
     .footer_nav{
         width: 80%;
@@ -314,7 +331,7 @@ footer{
           .footer_nav a:hover{
             font-size: 19px;
             font-weight: 500;
-            cursor: url(img/cursor_rosa_5.png) 16 16, auto;
+            cursor: url(img/cursores/cursor_rosa_5.png) 16 16, auto;
         
         }
     .footer_nav img{
@@ -352,7 +369,7 @@ footer{
             color: #F5F5EC;
             width:auto;
             height:auto;
-            cursor: url(img/cursor_amarillo.png) 16 16, auto;
+            cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
         
         }
 
@@ -372,10 +389,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-image: url(img/nube_cabecera.png);
     background-repeat: no-repeat;
-    background-size: 45%;
+    background-size: 65%;
     background-position: center top 50px;
 
 }
@@ -385,10 +400,14 @@ footer{
        border-bottom: solid 2px #091DD0;
        display: flex;
        flex-direction: row;
-       justify-content: space-evenly;
+       justify-content: center;
        align-items: center;
     }
          .navbar a{
+            width: 33.3%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-family: "Noto Serif",serif;
             font-size: 18px;
             font-style: normal;
@@ -396,14 +415,9 @@ footer{
 
          }
               .navbar a:hover{
-                cursor: url(img/cursor_rosa.png) 16 16, auto;
+                cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
                 
               }
-                 
-       /*   .logo_home{ NO ME CONVENCE
-            height: 65px;
-            padding-top: 15px;
-         } */
  
 /* ----------------------------- CONTACT.HTML --------------------------------------------- */
 
@@ -504,10 +518,6 @@ footer{
                     font-weight: 400;
                     line-height: normal;
                     text-transform: lowercase;
-                    background-image: url(img/nube_enviar.png);
-                    background-size: 100%;
-                    background-repeat: no-repeat;
-                    background-position: center;
                     display: flex;
                     flex-direction: row;
                     justify-items: center;
@@ -517,22 +527,23 @@ footer{
                   }
                   #button:hover{
                     font-size: 24px;
-                    cursor: url(img/cursor_rosa.png) 16 16, auto;
+                    cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
 
                   }
 /* ----------------------------- PORTFOLIO.HTML | WORK --------------------------------------------- */
 .paginas_encabezado{
     width: 90%;
-    height: 200px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   /*  border: solid 2PX red; */
+    /* border: solid 2PX red;  */
 
 }
      .paginas_encabezado img{
-        height: 130px;
+       /*  width: 40%; */
+       height: 130px;
 
      }
 .conjunto_bloques{
@@ -542,95 +553,244 @@ footer{
     align-items: center;
     width: 100%;
     height:auto;
-   /*  border:solid 2px rgb(0, 4, 255); */
+  
 }
      .bloque{
-        width: 90%;
+        width: 75%;
         display: flex;
         flex-direction:row;
         justify-content: center;
         align-items: center;
         height:400px;
-        border-bottom: solid 2px #091DD0;
-
+        border: solid 1px #091DD0; 
+        border-left: solid 2px #091DD0; 
+        border-right: solid 2px #091DD0; 
      }
          .bloque div{
-            width: 50%;
+            width: 42%;
             height: 400px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            /* border: solid 2px #091DD0;  */
+            /* border: solid 2px #091DD0; */
+            
+ 
          }
+         .bloque:first-child{
+            border-top: solid 2px #091DD0; 
 
-            #inversa{
+         }
+         .bloque:last-child{
+            border-bottom: none; 
+
+         }
+/* ----------------------------------------- */
+            #inversa{/* rocío guerrero */
                 display: flex;
                 flex-direction:row-reverse;
                 justify-content: center ;
                 align-items: center;
 
             }
-               #inversa img{/* derecha / Rocío Guerrero */
-                height: 270px;
-                display: flex;
-                align-self: flex-start;
-                padding-left: 60px;
-
-               }
-               #texto_inverso{
-                padding-left: 60px;
-               }
-           
-               /* --------------------------------------- */
+/* --------------------------------------- */
          
                .bloque img{
-                  height: 270px;
-                  display: flex;
-                  align-self: flex-end;
-                  padding-right: 60px;
+                  /* width: 75%; */
+                  width: auto;
+                  height: 250px;
+                  border-radius: 10px;
+                  /* height: auto; */
 
                 }
-                .texto{
-                    padding-right: 60px;
-                    width: 70%;
+/* ---------------HOVER------------- */
+                /* .bloque_imagen {
+          
+                    height: auto;
+                    position: relative;
+                    overflow: hidden;
+
+                }
+
+                .bloque_imagen::before {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: background-color 0.3s ease-in-out; 
+                    z-index: 1; 
+                  }
+                  
+                  .bloque_imagen:hover::before {
+                    content: "VER PÁGINA WEB";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/hover_img_portfolio.png);
+                    background-repeat: no-repeat;
+                    background-size: 95%;
+                    background-position: center;
+                  }  */
+/* ---------------------------------------------------------- */ 
+                #texto{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
 
                 }
                 
-                .texto h1{
+                #texto h1{
                     text-align: center;
+                    font-style: normal;
                     font-family: "Noto Serif",serif;
                     font-style: normal;
                     font-weight: 300;
                     line-height: normal;
                     text-transform: uppercase;
-                    font-size: 22px;
-                    width: 100%;
+                    font-size: 20px;
+                    
+               /*      width: 85%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; */
 
                 }
-                .texto h2{
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                    text-align: justify;
-                    font-family: "Noto Serif",serif;
-                    font-style: normal;
-                    font-weight: 300;
-                    line-height: normal;
-                    font-size: 18px;
+                     #texto h1:hover{
+                        text-decoration:underline;
+                        cursor: url(img/cursores/cursor_amarillo.png)16 16, auto;
+        
+                    }
 
-                }
-                .texto p{
-                    text-align: center;
+                #texto h2{
+                    padding-top: 15px;
+                    /* padding-bottom: 15px; */
+                    text-align: justify left;
                     font-family: "Noto Serif",serif;
                     font-style: normal;
                     font-weight: 300;
                     line-height: normal;
                     font-size: 16px;
+                    width: 80%;
+                    /* border:solid 2px red; */
+
+                }
+                #texto p{
+                    text-align: center;
+                    font-family: "Noto Serif",serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    font-size: 14px;
+                    padding-top: 15px;
                
                 }
+/* ----------------------------- ABOUT.HTML | SOBRE EL ESTUDIO --------------------------------------------- */
 
+.about{
+    width: 70%;
+    height: 550px; 
+   /*  height: auto; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border:solid 2px red; */
+
+    background-image: url(img/letras.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+     .about div{
+        width: 50%;
+        height: auto;
+        /* border:solid 2px rgb(0, 255, 26);  */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     }
+         .irene img{
+            width: 350px;
+         }
+         .creative_studio img{
+            width: 500px;
+
+         } 
+.about_contenido{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+} 
+          .about_contenido h5{
+            text-align: justify left;
+            font-family: 'Noto Serif', serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 30px;
+            margin-bottom: 10%;
+            margin-top: 5%;
+          }  
+          
+        .about_contenido h1{
+            align-items: center;
+            font-family: 'Aesthetic-Regular';
+            text-align: center;
+            font-size: 22px;
+            font-weight: 400;
+            text-transform: lowercase;
+
+        }  
+         .parrafo {
+            padding-top: 5%;
+            padding-left: 10%;
+            padding-right: 10%;
+           /*  padding-bottom: 5%; */
+
+          } 
+             .parrafo p{
+                text-align: justify center;
+                font-family: 'Noto Serif', serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 200;
+                line-height: 30px;
+                padding-bottom: 18px;
                 
-            
+              }
+               #fin{
+                padding-bottom: 10%;
+               }
+              .carita{
+                width: 100%;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              } 
+                 .carita img{
+                    height: 200px;
+                    transition: transform 1.0s;
+                 }
+                    .carita img:hover{
+                        transform: rotate(360deg);
+
+                    }
+              
+          
+        /*         .parrafo p:last-child{
+                   margin-bottom: 5%;
+                }   */
+    
 
                 
       

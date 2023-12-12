@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no" /><!-- viewport  para el responsive-->
     <title>IRENE BECKER CREATIVE STUDIO</title>
-    <link rel="icon" href="img/cursor_smile.png" sizes="16x16 32x32" type="image/png"><!-- Favicon -->
+    <link rel="icon" href="logos/smile.png" sizes="16x16 32x32" type="image/png"><!-- Favicon -->
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" /><!-- CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,16 +20,34 @@
 
         <section class="portada">
             <div class="foto_portada" >
-                <img id="foto_fondo"src="img/portadaWeb.JPG" alt="cuadro_irene_becker_2009" >
-                <img id="logo" src="logos/logo_creativeStudio_beige.png" alt="creativeStudio" >
-            </div>
+                <img id="foto_fondo"src="img/portadas/naveRosa_2.jpg" alt="Portdada" >
+                <img id="logo" src="logos/logo_creativeStudio_azul.png" alt="creativeStudio" >
+            
+            <script>//no estoy segura de que me guste esto, y dejar una sóla imagen fija(pensar)
+                   document.addEventListener("DOMContentLoaded", function() {
+                        let imagenes = ["img/portadas/naveRosa_2.jpg", "img/portadas/flores_color.png", "img/portadas/portadaWeb.JPG"]; // Agrega aquí las rutas de tus imágenes
+                        let tiempoIntervalo = 5000; // 5 seg!
+
+                        let indiceImagenActual = 0;
+                        let foto_fondo = document.getElementById("foto_fondo");
+
+                         function cambiarImagen() {
+                            foto_fondo.src = imagenes[indiceImagenActual];
+                            indiceImagenActual = (indiceImagenActual + 1) % imagenes.length;
+                        }
+                        cambiarImagen();
+
+                     setInterval(cambiarImagen, tiempoIntervalo);
+
+                    });
+            </script>
+            </div><!-- cierra foto_portada -->
             <nav class="navbar_portada">
                 <a  href="portfolio.html">{ WORK }</a>
                 <a  href="about.html">{ ABOUT }</a>
                 <a  href="contact.html">{ CONTACT }</a>
             </nav>
-            <!-- <img id="logo" src="logos/logo_creativeStudio_beige.png" alt="creativeStudio" > -->
-        </section>
+        </section><!-- cierra clase portada -->
 
     </main><!-- cierre de portada -->
 
@@ -55,11 +73,11 @@
             <p>NUESTROS SERVICIOS</p>
            </div>
            <div class="servicios_categorias">
-               <p>{ DISEÑO WEB }</p>
-               <p>{ DISEÑO GRÁFICO } </p>
-               <p>{ MAQUETACIÓN WEB [ responsive ] } </p>
-               <p>{ MAQUETACIÓN WEB CMS }</p>
-               <p>{ E-SHOPS [ SHOPIFY ] }</p>
+               <p> { DISEÑO WEB } </p>
+               <p> { DISEÑO GRÁFICO } </p>
+               <p> { MAQUETACIÓN WEB [ responsive ] } </p>
+               <p> { MAQUETACIÓN WEB CMS } </p>
+               <p> { E-SHOPS [ SHOPIFY ] } </p>
            </div>
 
        </section><!-- cierra servicios -->
@@ -79,7 +97,6 @@
         </div>
       
        </section><!-- cierra final -->
-
     </aside><!--  cierra cuerpo -->
 
     <footer>
