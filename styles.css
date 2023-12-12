@@ -59,36 +59,29 @@ font-family: 'Noto Serif Display', serif;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* border:solid 2px #091DD0; */
     background-color: rgba(0, 0, 0, 0.1);
-    /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);   */
 
   }
        .portada{
-        width: 97%;/* 97%; */
+        width: 97%;
         height: 95%;
         display: flex;
         position: relative;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        font-variant-position: url(logos/logo_creativeStudio_azul.png);
     
         }
                .foto_portada{
                  width: 75%;
                  height: 100%;
-                 /* border: 20px solid rgba(0, 0, 0, 0.3);  */
 
                 }
                #foto_fondo{
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                /* filter: brightness(70%);  */
-                /* transform: scaleX(-1);  */
-                /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);   */
-
+                
                }
                #logo{
                 width: 67%;
@@ -201,14 +194,10 @@ font-family: 'Noto Serif Display', serif;
                  .servicios_categorias{
                     width: 100%;
                     height: 450px;
-                   /*  background-image: url(img/fondo2.jpg); */
-                   /*  opacity: 80%; */
                     background-image: url(velvet_inside.png);
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
-                    /* filter: brightness(50%);  */
-
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -220,7 +209,6 @@ font-family: 'Noto Serif Display', serif;
                     font-weight: 400;
                     line-height: 60px;
                     text-transform: lowercase;
-                    text-shadow: 3px #091DD0;/* bold */
                     
                 }
                 .servicios_categorias p{
@@ -271,7 +259,6 @@ font-family: 'Noto Serif Display', serif;
             }
             .conclusion_contacto{
                 height: 125px;
-               /*  height:auto; */
                 align-items: center;
                 font-family: 'Aesthetic-Regular';
                 text-align: center;
@@ -282,10 +269,6 @@ font-family: 'Noto Serif Display', serif;
                 text-shadow: 1px #091DD0;
                 
             }
-                 /*  .conclusion_contacto a{
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                  }  */
                   .conclusion_contacto a:hover{
                     font-size: 24px;
                     cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
@@ -415,6 +398,7 @@ footer{
 
          }
               .navbar a:hover{
+                font-weight: 400;
                 cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
                 
               }
@@ -510,7 +494,6 @@ footer{
                     text-decoration: none;
                     border: none;
                     background-color: transparent;
-                    /* padding-top: 60px; */
                     text-align: center;
                     font-family: 'Aesthetic-Regular';
                     font-size: 24px;
@@ -533,19 +516,27 @@ footer{
 /* ----------------------------- PORTFOLIO.HTML | WORK --------------------------------------------- */
 .paginas_encabezado{
     width: 90%;
-    height: 180px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: solid 2PX red;  */
 
 }
      .paginas_encabezado img{
-       /*  width: 40%; */
        height: 130px;
 
      }
+     .paginas_encabezado h1{
+            text-align: center;
+            font-family: 'Aesthetic-Regular';
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: lowercase; 
+
+         } 
 .conjunto_bloques{
     display: flex;
     flex-direction:column;
@@ -573,9 +564,7 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            /* border: solid 2px #091DD0; */
-            
- 
+        
          }
          .bloque:first-child{
             border-top: solid 2px #091DD0; 
@@ -585,26 +574,14 @@ footer{
             border-bottom: none; 
 
          }
-/* ----------------------------------------- */
-            #inversa{/* rocío guerrero */
-                display: flex;
-                flex-direction:row-reverse;
-                justify-content: center ;
-                align-items: center;
-
-            }
-/* --------------------------------------- */
-         
                .bloque img{
-                  /* width: 75%; */
                   width: auto;
                   height: 250px;
                   border-radius: 10px;
-                  /* height: auto; */
 
                 }
 /* ---------------HOVER------------- */
-                /* .bloque_imagen {
+                .bloque_imagen {
           
                     height: auto;
                     position: relative;
@@ -623,17 +600,138 @@ footer{
                     z-index: 1; 
                   }
                   
-                  .bloque_imagen:hover::before {
-                    content: "VER PÁGINA WEB";
+                  #deassin:hover::before {
+                    content: "";/* www.deassin.es */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
-                    background-image: url(img/portfolio/hover_img_portfolio.png);
+                    background-image: url(img/portfolio/deassin_hover.png);
                     background-repeat: no-repeat;
-                    background-size: 95%;
+                    background-size:100%;
                     background-position: center;
-                  }  */
+                  } 
+                  #btehr:hover::before {
+                    content: ""; 
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal; 
+                    background-image: url(img/portfolio/btehr_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  } 
+                  #guerrero:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/guerrero_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  } 
+                  #ewp:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/ewp_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  } 
+                  #imbd:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/imbd_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  } 
+                  #velvet:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/velvet_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  } 
+                  #hola:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/tarjeta_hola!_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  } 
+                  #primavera:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/primavera_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  } 
+                  #kaiku:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/kaiku_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  }
+                  #boheart:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/boheart_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  } 
+                  #pintura:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/pintura_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  }
+                  #becker:hover::before {
+                    content: "";
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/rrss_becker&co.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+                  }
 /* ---------------------------------------------------------- */ 
                 #texto{
                     display: flex;
@@ -653,10 +751,6 @@ footer{
                     text-transform: uppercase;
                     font-size: 20px;
                     
-               /*      width: 85%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center; */
 
                 }
                      #texto h1:hover{
@@ -667,7 +761,6 @@ footer{
 
                 #texto h2{
                     padding-top: 15px;
-                    /* padding-bottom: 15px; */
                     text-align: justify left;
                     font-family: "Noto Serif",serif;
                     font-style: normal;
@@ -675,7 +768,6 @@ footer{
                     line-height: normal;
                     font-size: 16px;
                     width: 80%;
-                    /* border:solid 2px red; */
 
                 }
                 #texto p{
@@ -692,15 +784,11 @@ footer{
 
 .about{
     width: 70%;
-    height: 550px; 
-   /*  height: auto; */
-
+    height: 545px; 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* border:solid 2px red; */
-
     background-image: url(img/letras.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -710,7 +798,6 @@ footer{
      .about div{
         width: 50%;
         height: auto;
-        /* border:solid 2px rgb(0, 255, 26);  */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -720,7 +807,7 @@ footer{
             width: 350px;
          }
          .creative_studio img{
-            width: 500px;
+            width: 550px;
 
          } 
 .about_contenido{
@@ -785,11 +872,6 @@ footer{
                         transform: rotate(360deg);
 
                     }
-              
-          
-        /*         .parrafo p:last-child{
-                   margin-bottom: 5%;
-                }   */
     
 
                 
