@@ -16,25 +16,41 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><!-- Tipografías -->
     </head>
     <body>
-        <main id="paginas">
+        <main><!-- portada -->
 
-            <nav class="navbar"> <!-- navbar -->
-               <!--  <a  href="index.html"><img class= "logo_home"src="logos/logo_creativeStudio_azul.png"></a> -->
-                <a  href="portfolio.html">{ WORK }</a>
-                <a  href="#">{ ABOUT THE STUDIO }</a>
-                <a  href="contact.html">{ CONTACT }</a>
-            </nav><!-- cierra navbar -->
+            <section class="portada">
+                <div class="foto_portada" >
+                    <img id="foto_fondo"src="img/irene_working.jpg" alt="Portada" >
+                    <img id="logo" src="logos/logo_creativeStudio_azul.png" alt="creativeStudio" >
+                </div><!-- cierra foto_portada -->
+                <nav class="navbar_portada">
+                    <a  href="portfolio.html">{ WORK }</a>
+                    <a  href="index.html">{ INDEX }</a>
+                    <a  href="contact.html">{ CONTACT }</a>
+                </nav>
+            </section><!-- cierra clase portada -->
+    
+        </main><!-- cierre de portada -->
 
-            <section class="about"><!-- aboout the studio -->
-                <div class="irene">
-                    <img src="img/irene_studio.png">
-                </div>
-                <div class="creative_studio">
-                    <img src="logos/logo_creativeStudio_azul.png">
-                </div>
-            </section>
+        <!-- <main id="paginas">
 
-            <section class="about_contenido">
+            <nav class="navbar"> 
+         
+               <a  href="portfolio.html">{ WORK }</a>
+               <a  href="#">{ ABOUT THE STUDIO }</a>
+               <a  href="contact.html">{ CONTACT }</a>
+           </nav>
+
+           <section class="about">
+               <div class="irene">
+                   <img src="img/irene_studio.png">
+               </div>
+               <div class="creative_studio">
+                   <img src="logos/logo_creativeStudio_azul.png">
+               </div>
+           </section> -->
+
+            <section class="about_contenido" id="about">
                 <h5>Irene Becker Studio nace en 2012 tras terminar la Licenciatura de Bellas Artes en la Universidad Complutense de Madrid como necesidad para hacer frente 
                     a todos los encargos que me hacían como diseñadora gráfica, ilustradora y pintora. Tras más de 10 años como diseñadora y artista freelance, en 2023 me 
                     formo como desarrolladora web Full Stack en Codenotch, Madrid y me lanzo al diseño y elaboración de páginas web.</h5>
