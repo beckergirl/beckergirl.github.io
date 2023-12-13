@@ -1,0 +1,236 @@
+/* CSS PARA LAS PÁGINAS DEL PORTFOLIO */
+
+
+/* ------------------- DEASSÍN | WORK | PORTFOLIO --------------------- */
+
+.portada_paginas_work{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+        .portada_paginas_work h1{
+            width: 100%;
+            text-align: center;
+            font-family: 'Aesthetic-Regular';
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: lowercase; 
+
+        }
+        .portada_paginas_work h2{
+            width: 100%;
+            text-align: center;
+            font-family: 'Noto Serif',serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+
+        }
+.contenido{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:solid 2px red; */
+
+}
+    .contenido div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+      .imagen_portada{
+        width: 100%;
+      }
+          .imagen_portada img{
+            width: 60%;
+          }
+      .contenido h1{
+        width: 60%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'nib-regular-pro'; /* tipografía Deassin */
+        font-weight: normal;
+        font-style: normal;
+        font-size: 30px;
+        font-style: italic;
+        line-height: normal;
+
+      }
+      #imagen_deassin{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+      }
+           #imagen_deassin img{
+            width: 100%;
+
+           }
+      #imagenes_deassin{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+      }
+           #imagenes_deassin img{
+            width: 50%;
+
+           }
+      #parrafo{
+        width: 80%;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+           #parrafo p{
+                font-family: 'Noto Serif', serif;
+                text-align: center;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 35px;
+            
+          }
+          #parrafo a{
+                font-family: 'Noto Serif', serif;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                padding-top: 20px;
+                cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
+          }
+                #parrafo a:hover{
+                    transform: scale(1.1);
+              }
+    #parrafo_2{
+        width: 80%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+           #parrafo_2 p{
+                font-family: 'Noto Serif', serif;
+                text-align: center;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 35px;
+            
+          }
+          .volver{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+            font-family: 'Aesthetic-Regular';
+            text-align: center;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            text-transform: lowercase;
+            border-top:solid 2px #091DD0;
+            
+        }
+              .volver a:hover{
+                font-size: 24px;
+                cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
+
+            }
+            
+/* -------------------- BTEHR | WORK | PORTFOLIO ---------------------- */
+
+.portada_paginas_work_btehr{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+     .portada_paginas_work_btehr h1{
+        width: 100%;
+        text-align: center;
+        font-family: 'Aesthetic-Regular';
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: lowercase; 
+
+    }
+    .portada_paginas_work_btehr h2{
+        width: 100%;
+        text-align: center;
+        font-family: 'Noto Serif',serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+    }
+#imagenes_btehr{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+     #imagenes_btehr img{
+      width: 33.3%;
+
+     }
+
+    .titulito h1{
+      width: 60%;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #091DD0;
+      text-align: center;
+      font-family: 'Noto Serif', serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 30px;
+
+    } 
+
+/* ---------------- ROCIO GUERRERO | WORK | PORTFOLIO ----------------- */
+/* ---------------- IMBD: FICTICIO | WORK | PORTFOLIO ----------------- */
+/* ----------------- BECKER & CO. | WORK | PORTFOLIO ------------------ */
+/* -------------------- PINTURA | WORK | PORTFOLIO -------------------- */
