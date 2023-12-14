@@ -128,11 +128,6 @@
             width: 89%;
     
         }
-   
-             .conclusion_parrafo{
-                width: 80%;
-                
-            }
           .ejemplos{
             height: 220px;
     
@@ -144,5 +139,140 @@
         footer p {
             font-size: 10px;
         }
+        .footer_nav img{
+            height: 70px;
+    
+        }
    
 }
+@media(max-width:606px){
+    
+    /* index */
+     .navbar_portada a{/* navbar index / enlaces */
+        font-size: 12px;
+
+    }
+
+    .intro{
+        height: 580px;
+    
+    }
+    .intro_titulo{
+            font-size: 45px;
+            line-height: 65px;
+        }
+        .intro_parrafo{
+            width: 90%;
+            font-size: 18px;
+            line-height: 30px;
+        
+            }
+            .intro img{
+                padding-bottom: 15px; /*  */
+        
+            }
+            .conclusion_titulo{
+                font-size: 18px;
+         
+             }
+             .conclusion_parrafo{
+                font-size: 14px;
+                line-height: 25px;
+                
+            }
+            .conclusion_contacto{
+                font-size: 18px;
+            }
+            .servicios{
+                height: auto;
+            }
+            .servicios_titulo{
+                font-size: 18px;
+            }
+            .servicios_categorias{
+                font-size: 18px;
+                line-height: 50px;
+                height: 300px;
+                background-size: cover;
+                
+            }
+          .ejemplos{
+            height: 200px;
+    
+          }
+          .footer_nav a{/* footer enlaces */
+            font-size: 12px;
+        
+        }
+  
+        .footer_nav img{
+            height: 65px;
+ 
+    
+        }
+    
+        }
+@media(max-width:521px){
+    
+    /* index */
+     .navbar_portada a{
+        width: auto;/* mirar */
+
+    }
+    .intro{
+        height: 550px;
+    
+    }
+
+    .intro_titulo{/*  */
+            font-size: 42px;
+            line-height: 62px;
+        }
+        .intro_parrafo{
+            font-size: 16px;
+            line-height: 28px;
+        
+            }
+            .intro img{
+                padding-bottom: 15px; /*  */
+        
+            }
+            .conclusion_titulo{
+                font-size: 16px;
+         
+             }
+             .conclusion_parrafo{
+                font-size: 13px;
+                line-height: 22px;
+                
+            }
+            .conclusion_contacto{
+                font-size: 16px;
+            }
+            .servicios{
+                height: auto;
+            }
+            .servicios_titulo{
+                font-size: 16px;
+            }
+            .servicios_categorias{/*  */
+                font-size: 16px;
+                
+            }
+          .ejemplos{
+            height: 180px;
+    
+          }
+          .footer_nav a{/* footer enlaces */
+            font-size: 12px;
+
+          }
+         .footer_redes a{
+                font-size: smaller;
+
+            }
+        
+        }
+  
+   
+             
