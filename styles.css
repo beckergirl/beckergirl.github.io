@@ -82,25 +82,23 @@ font-family: 'Noto Serif Display', serif;
                 
                }
                #logo{
-                width: 67%;
+                width: 45%;
                 position: absolute;
                 top: 36%;
-                left: 34.5%;
+                left: 43.3%;
             
-            }
+              }
                .navbar_portada{
-                 width: 25%;
+                 width: 10%;/* 25 */
                  height:100%;
-        
                  display: flex;
                  flex-direction: column;
                  justify-content:space-around;
-                 align-items: flex-end;
+                 align-items: center;
 
                 }
                     .navbar_portada a{
-                        width: 120px;
-                        height: auto;
+                        width: 200px;
                         transform: rotate(90deg);
                         text-align: center;
                         font-family: "Noto Serif",serif;
@@ -287,7 +285,7 @@ font-family: 'Noto Serif Display', serif;
 
               }
               .ejemplos a img{
-                width: 97%;
+                width: 96%;
                 height: auto;
               }
                   .ejemplos a img:hover{
