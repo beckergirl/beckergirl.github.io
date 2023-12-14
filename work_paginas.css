@@ -55,7 +55,7 @@
         width: 100%;
       }
           .imagen_portada img{
-            width: 60%;
+            width: 50%;/* 60 */
           }
       .contenido h1{
         width: 60%;
@@ -73,7 +73,7 @@
 
       }
       #imagen_deassin{
-        width: 80%;
+        width: 70%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -86,7 +86,7 @@
 
            }
       #imagenes_deassin{
-        width: 80%;
+        width: 70%;
         height: auto;
         display: flex;
         flex-direction: row;

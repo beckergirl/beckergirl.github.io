@@ -1,0 +1,148 @@
+/* -------STYLES RESPONSIVE------- */
+
+@media(max-width:1000px){
+    
+    /* index */
+    .ejemplos{/* postales */
+        width: 80%;
+
+    }
+}
+
+@media(max-width:850px){
+    
+    /* index */
+    .navbar_portada a{/* navbar index / enlaces */
+        width: 100px;
+        font-size: 16px;
+
+    }
+    .ejemplos{/* postales */
+        height: 300px; 
+    } 
+    .footer_nav a{/* footer enlaces */
+        font-size: 16px;
+    
+    }
+}
+@media(max-width:800px){
+    
+   /* index */
+   .intro{
+    width: 80%;
+    height: 750px;/* 900 */
+
+}
+    .intro_titulo{
+        font-size: 55px;
+        line-height: 80px;
+        padding-top: 15px;
+
+    }
+    .intro_parrafo{
+        width: 85%;
+        font-size: 20px;
+        line-height: 35px;
+
+    }
+    .intro img{
+        padding-bottom: 20px; 
+
+    }
+    .servicios_titulo{
+        font-size: 20px;
+    }
+    .servicios_categorias{
+        font-size: 20px;
+        line-height: 55px;
+        
+    }
+    .conclusion{
+        height: 500px;
+
+    } 
+         .conclusion_titulo{
+            font-size: 20px;
+     
+         }
+         .conclusion_parrafo{
+            width: 75%;
+            font-size: 16px;
+            line-height: 30px;
+            
+        }
+        .conclusion_contacto{
+            height: 80px;
+            font-size: 20px; 
+        }
+      .ejemplos{
+        height: 250px;
+
+      }
+}
+@media(max-width:700px){
+    
+    /* index */
+    .navbar_portada a{/* navbar index / enlaces */
+        width: 55%;
+        font-size: 14px;
+
+    }
+    .intro{
+        width: 80%;
+        height: 680px;
+    
+    }
+        .intro_titulo{
+            font-size: 52px;
+            line-height: 79px;
+        }
+        .intro_parrafo{
+            width: 89%;
+    
+        }
+   
+             .conclusion_parrafo{
+                width: 80%;
+                
+            }
+          .ejemplos{
+            height: 220px;
+    
+          }
+   
+}
+@media(max-width:700px){
+    
+    /* index */
+    .intro{
+        width: 80%;
+        height: 680px;
+    
+    }
+        .intro_titulo{
+            font-size: 52px;
+            line-height: 79px;
+        }
+        .intro_parrafo{
+            width: 89%;
+    
+        }
+   
+             .conclusion_parrafo{
+                width: 80%;
+                
+            }
+          .ejemplos{
+            height: 220px;
+    
+          }
+          .footer_nav a{/* footer enlaces */
+            font-size: 14px;
+        
+        }
+        footer p {
+            font-size: 10px;
+        }
+   
+}
