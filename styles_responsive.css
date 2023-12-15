@@ -1,28 +1,18 @@
 /* -------STYLES RESPONSIVE------- */
 
 @media(max-width:1000px){
-    
     /* index */
-    .ejemplos{/* postales */
+    .ejemplos{
         width: 80%;
 
     }
 }
 
 @media(max-width:850px){
-    
     /* index */
-    .navbar_portada a{/* navbar index / enlaces */
-        font-size: 16px;
-
-    }
-    .ejemplos{/* postales */
+    .ejemplos{
         height: 300px; 
     } 
-    .footer_nav a{/* footer enlaces */
-        font-size: 16px;
-    
-    }
 }
 @media(max-width:800px){
     .portada{
@@ -32,7 +22,7 @@
    /* index */
    .intro{
     width: 80%;
-    height: 750px;/* 900 */
+    height: 800px;/* 900 */
 
 }
     .intro_titulo{
@@ -60,28 +50,31 @@
         
     }
     .conclusion{
-        height: 500px;
+        height: 600px;
 
     } 
-         .conclusion_titulo{
-            font-size: 20px;
+    .conclusion_titulo{
+        font-size: 20px;
      
-         }
-         .conclusion_parrafo{
-            width: 75%;
-            font-size: 16px;
-            line-height: 30px;
+    }
+    .conclusion_parrafo{
+        width: 80%;
+        font-size: 16px;
+        line-height: 30px;
             
-        }
-        .conclusion_contacto{
-            height: 80px;
-            font-size: 20px; 
-        }
-      .ejemplos{
-        height: 250px;
+    }
+    .conclusion_contacto{
+        height: 100px;
+        font-size: 20px; 
+    }
+    .ejemplos{
+        width: 85%;
+        height: 270px;
 
-      }
+    }
+
 }
+
 @media(max-width:700px){
     
     /* index */
@@ -89,238 +82,229 @@
         width: 95%;
     
     }
-    .navbar_portada a{/* navbar index / enlaces */
-        /* width: 55%; */
-        font-size: 14px;
+    #logo{
+        width: 55%;
+        left: 35.6%;
 
-    }
+      }
     .intro{
         width: 80%;
         height: 680px;
     
     }
-        .intro_titulo{
-            font-size: 52px;
-            line-height: 79px;
-        }
-        .intro_parrafo{
-            width: 89%;
-    
-        }
-   
-             .conclusion_parrafo{
-                width: 80%;
-                
-            }
-          .ejemplos{
-            height: 220px;
-    
-          }
-   
-}
-@media(max-width:700px){
-    
-    /* index */
-  
-        .intro_titulo{
-            font-size: 52px;
-            line-height: 79px;
-        }
-        .intro_parrafo{
-            width: 89%;
-    
-        }
-          .ejemplos{
-            height: 220px;
-    
-          }
-          .footer_nav a{/* footer enlaces */
-            font-size: 14px;
-        
-        }
-        footer p {
-            font-size: 10px;
-        }
-        .footer_nav img{
-            height: 70px;
-    
-        }
-   
-}
-@media(max-width:606px){
-    
-    /* index */
-     .navbar_portada a{/* navbar index / enlaces */
-        font-size: 12px;
-
-    }
-
-    .intro{
-        height: 580px;
-    
-    }
     .intro_titulo{
-            font-size: 45px;
-            line-height: 65px;
-        }
-        .intro_parrafo{
-            width: 90%;
-            font-size: 18px;
-            line-height: 30px;
+        font-size: 52px;
+        line-height: 79px;
+    }
+    .intro_parrafo{
+        width: 89%;
+    
+    }
+    .conclusion_parrafo{
+        width: 85%;
+                
+    }
+    .ejemplos{
+        width: 85%;
+        height: 270px;
+
+    }
+    .footer_nav a{
+        font-size: 14px;
+            
+    }
+    footer p {
+        font-size: 10px;
+
+    }
+    .footer_nav img{
+        height: 70px;
         
-            }
-            .intro img{
-                padding-bottom: 15px; /*  */
+    }
+   
+}
+
+@media(max-width:606px){
+    /* index */
+    .intro_titulo{
+        font-size: 45px;
+        line-height: 65px;
+
+    }
+    .intro_parrafo{
+        width: 90%;
+        font-size: 18px;
+        line-height: 30px;
         
-            }
-            .conclusion_titulo{
-                font-size: 18px;
+    }
+    .intro img{
+        padding-bottom: 15px;
+        
+    }
+    .conclusion_titulo{
+        font-size: 18px;
          
-             }
-             .conclusion_parrafo{
-                font-size: 14px;
-                line-height: 25px;
+    }
+    .conclusion_parrafo{
+        font-size: 14px;
+        line-height: 25px;
                 
-            }
-            .conclusion_contacto{
-                font-size: 18px;
-            }
-            .servicios{
-                height: auto;
-            }
-            .servicios_titulo{
-                font-size: 18px;
-            }
-            .servicios_categorias{
-                font-size: 18px;
-                line-height: 50px;
-                height: 300px;
-                background-size: cover;
+    }
+    .conclusion_contacto{
+        font-size: 18px;
+
+    }
+    .servicios{
+        height: auto;
+
+    }
+    .servicios_titulo{
+        font-size: 18px;
+
+    }
+    .servicios_categorias{
+        font-size: 18px;
+        line-height: 50px;
+/*         height: 300px;
+        background-size: cover; */
                 
-            }
-          .ejemplos{
-            height: 200px;
-    
-          }
-          .footer_nav a{/* footer enlaces */
-            font-size: 12px;
+    }
+    .ejemplos{
+        width: 95%;
+        height: 220px;
+
+    }
+    .footer_nav a{
+        font-size: 12px;
         
-        }
-  
-        .footer_nav img{
-            height: 65px;
+    }
+    .footer_nav img{
+        height: 65px;
  
+    }
     
-        }
-    
-        }
+}
+
 @media(max-width:521px){
     
     /* index */
-    .intro{
-        height: 550px;
-    
+    #logo{
+        top: 45%;
+    }
+    .intro {
+        height: 620px;
+    }
+    .intro_titulo{
+        font-size: 42px;
+        line-height: 62px;
+
+    }
+    .intro img{
+        padding-bottom: 15px; 
+        
     }
 
-    .intro_titulo{/*  */
-            font-size: 42px;
-            line-height: 62px;
-        }
-        .intro_parrafo{
-            font-size: 16px;
-            line-height: 28px;
-        
-            }
-            .intro img{
-                padding-bottom: 15px; /*  */
-        
-            }
-            .conclusion_titulo{
-                font-size: 16px;
-         
-             }
-             .conclusion_parrafo{
-                font-size: 13px;
-                line-height: 22px;
-                
-            }
-            .conclusion_contacto{
-                font-size: 16px;
-            }
-            .servicios{
-                height: auto;
-            }
-            .servicios_titulo{
-                font-size: 16px;
-            }
-            .servicios_categorias{/*  */
-                font-size: 16px;
-                
-            }
-          .ejemplos{
-            height: 180px;
-    
-          }
-          .footer_nav{
-            width: 85%;
-    
-        }
-          .footer_nav a{/* footer enlaces */
-            font-size: 12px;
+}
 
-          }
-         .footer_redes a{
-                font-size: smaller;
+@media(max-width:480px){/* Samsung Galaxy Note 5 / 9 */
+    /* index */
+    main{
+        width: 100%;
+        height: 75vh;/* 100vh */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-            }
-            /* portfolio */
-            .bloque{
-                width: 90%;
-                flex-direction:column;
-                height:550px;
-                border-bottom: solid 2px #091DD0;
+    }
+    .portada{
+        width: 92%;
+        height: 92%;
+        flex-direction: column;
         
+    }
+    .foto_portada{
+        width: 100%;
+        height: 75%;
+
+    }
+    #logo{
+        width: 60%;
+        position: absolute;
+        top: 64.3%;
+        left: 40%;
+                    
+    }
+    .navbar_portada{
+        width: 100%;
+        height: 25%;
+        flex-direction: row;
+        align-items: flex-end;
         
-             }
-                 .bloque div{
-                    width: 100%;
-                   /*  height: 500px;  */
-                   
-                
-                 }
-                 .bloque img{
-                    width: 70%;
-  
-                  }
+    }
+    .navbar_portada a{
+        width:33%;
+        transform: rotate(0deg);
+        font-size: 18px;
+
+    }
+    .intro{
+        height: 600px;
             
-        
-        }
+    }
+    .intro_titulo{
+        font-size: 38px;
+        line-height: 58px;
 
-        
+    }
+    .conclusion_parrafo {
+        text-align: left;
+    }
+    .ejemplos{
+        width: 70%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
 
-        @media(max-width:412px){/* aple */
-            /* index */
-           /*  #logo{
-                width: 60%;
-                position: absolute;
-                top: 64.3%;
-                left: 40%;
-                    
-            } */
-            .intro{
-                height: 500px;
+    }
+    .ejemplos a img{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+
+    }
+    .footer_nav a{
+        font-size: 12px;
+
+    }
+    .footer_nav img{
+        height: 60px;
         
-            }
-        
-            .intro_titulo{
-                font-size: 35px;
-                line-height: 56px;
-            }
-            .footer_nav img{
-                padding-top: 10%;
-                height: 50px;
-                    
-            }
+    }
+    footer p {
+        font-size: 8px;
+
+    }
+             
+}
+             
+@media(max-width:412px){/* IPHONE */
+    /* index */
+    .intro{
+        height: 500px;
+                
+    }
+    .intro_titulo{
+        font-size: 35px;
+        line-height: 56px;
+    }
+    .footer_nav img{
+        padding-top: 10%;
+        height: 50px;
+                            
+    }
+
 }
   
    
