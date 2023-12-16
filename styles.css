@@ -317,7 +317,7 @@ footer{
         color: #F5F5EC;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;/*  */
+        justify-content: space-around;
         align-items: center;
 
     }
@@ -338,13 +338,15 @@ footer{
         
         }
     .footer_nav img{
-        height: 90px;
-        padding-top: 5%;
+        height: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
 
     }
         #logo_footer{/* en páginas (enlace) */
-        height: 90px;
-        padding-top: 5%;
+          height: 100px;
+          padding-top: 20px;
+          padding-bottom: 20px;
       
        }
     footer p{
@@ -378,7 +380,7 @@ footer{
         
         }
              .footer_redes a:hover{
-                transform: scale(1.1);
+              font-weight: 300;
             
             }
 
@@ -627,7 +629,7 @@ footer{
                   border-radius: 10px;
 
                 }
-        /* ---------------HOVER imagenes PORTFOLIO------------- */
+/* ---------------HOVER imagenes PORTFOLIO------------- */
                 .bloque_imagen {
                     width: 80%;
                     height: auto; 
@@ -856,7 +858,7 @@ footer{
 
 }
      .about_contenido div{
-        width: 50%;
+        width: 70%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -866,9 +868,9 @@ footer{
 
           .about_contenido h5{
             width: 65%;
-            text-align: center;
+            text-align: left;
             font-family: 'Noto Serif', serif;
-            font-size: 18px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 300;
             line-height: 35px;
@@ -888,15 +890,12 @@ footer{
          .parrafo {
             width: 70%;
             padding-top: 5%;
-            padding-left: 10%;
-            padding-right: 10%;
-            /* border:solid 3px red; */
 
           } 
              .parrafo p{
                 text-align: justify center;
                 font-family: 'Noto Serif', serif;
-                font-size: 16px;
+                font-size: 18px;
                 font-style: normal;
                 font-weight: 200;
                 line-height: 30px;
@@ -914,7 +913,9 @@ footer{
                 align-items: center;
               } 
                  .carita img{
-                    height: 180px;
+                    height: 160px;
+                    padding-top: 40px;
+                    padding-bottom: 50px;
                     transition: transform 1.0s;
                  }
                     .carita img:hover{
