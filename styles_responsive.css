@@ -138,7 +138,7 @@
         
     }
     .intro img{
-        padding-bottom: 15px;
+        width: 80%;
         
     }
     .conclusion_titulo{
@@ -165,8 +165,6 @@
     .servicios_categorias{
         font-size: 18px;
         line-height: 50px;
-/*         height: 300px;
-        background-size: cover; */
                 
     }
     .ejemplos{
@@ -200,7 +198,9 @@
 
     }
     .intro img{
-        padding-bottom: 15px; 
+        width: 85%;
+        height: auto;
+        padding-bottom: 18px; 
         
     }
 
@@ -210,11 +210,8 @@
     /* index */
     main{
         width: 100%;
-        height: 75vh;/* 100vh */
-        display: flex;
+        height: 75vh;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
 
     }
     .portada{
@@ -225,19 +222,19 @@
     }
     .foto_portada{
         width: 100%;
-        height: 75%;
+        height: 70%;
 
     }
     #logo{
         width: 60%;
         position: absolute;
-        top: 64.3%;
+        top: 69.7%;
         left: 40%;
                     
     }
     .navbar_portada{
         width: 100%;
-        height: 25%;
+        height: 30%;
         flex-direction: row;
         align-items: flex-end;
         
@@ -249,19 +246,30 @@
 
     }
     .intro{
-        height: 600px;
+        height: 670px;
             
     }
     .intro_titulo{
+        padding-top: 20px;
         font-size: 38px;
         line-height: 58px;
 
     }
+    .intro img{
+        width: 87%;
+        
+    }
+    .servicios_categorias {
+        width: 100%;
+        height: 300px;
+
+    }
     .conclusion_parrafo {
         text-align: left;
+
     }
     .ejemplos{
-        width: 70%;
+        width: 90%;
         height: auto;
         flex-direction: column;
         justify-content: center;
@@ -274,7 +282,13 @@
         padding-bottom: 15px;
 
     }
+    .footer_nav{
+        width: 90%;
+
+
+    }
     .footer_nav a{
+        width: 95%;
         font-size: 12px;
 
     }
@@ -283,28 +297,33 @@
         
     }
     footer p {
+        width: 90%;
         font-size: 8px;
 
     }
              
 }
              
-@media(max-width:412px){/* IPHONE */
+@media(max-width:443px){/* Samsung Galaxy Note 5 / 9 */
     /* index */
     .intro{
-        height: 500px;
-                
+        width: 85%;
+ 
     }
     .intro_titulo{
-        font-size: 35px;
+        font-size: 36px;
         line-height: 56px;
-    }
-    .footer_nav img{
-        padding-top: 10%;
-        height: 50px;
-                            
-    }
 
+    }
+    .intro_parrafo {
+        width: 95%;
+
+    }
+    .intro img{
+        width: 90%;
+     
+    }
+             
 }
   
    
