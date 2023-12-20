@@ -7,6 +7,22 @@
 
     }
 }
+@media(max-width:900px){
+    /* work */
+    .bloque div{
+        width: 45%; 
+
+    } 
+     .bloque_imagen {
+        width: 100%;
+
+    }
+    #texto{
+        width: 55%;
+
+    }
+   
+}
 
 @media(max-width:850px){
     /* index */
@@ -24,7 +40,7 @@
     width: 80%;
     height: 800px;/* 900 */
 
-}
+    }
     .intro_titulo{
         font-size: 55px;
         line-height: 80px;
@@ -70,6 +86,20 @@
     .ejemplos{
         width: 85%;
         height: 270px;
+
+    }
+    /* work */
+      .bloque div:first-child{
+        width: 60%; 
+    
+     } 
+     .bloque div:last-child{
+        width: 40%; 
+
+     } 
+     .bloque_imagen {
+        width: 100%;
+
 
     }
 
@@ -354,28 +384,38 @@
     .bloque{
         width: 85%;
         flex-direction:column;
-        height:600px;/* 400  */
+        height:550px;
 
      }
-     .bloque div{
+     .bloque div:first-child{
         width: 100%;
         height: 50%;
-        display: flex;
-        flex-direction: column;
-    
+      
+     }
+     .bloque div:last-child{
+        width: 100%;
+        height: 40%;
+       
      }
      .bloque img{
-        width: 100%;
+        width: 90%;
 
-      }
-      .bloque_imagen {
-        width: 100%;
+    }
+    .bloque_imagen {
+        width: 90%;
+        height: auto; 
 
     }
     .bloque_imagen::before {
-        width: 100%;
-        height: 100%;
-     
+        width: 90%;
+        height: 90%;
+
+    }
+    #texto {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        
     }
     /* contact */
     .contact{
@@ -391,7 +431,7 @@
         
     }
    
-}
+} 
              
 @media(max-width:443px){/* Samsung Galaxy Note 5 / 9 */
     /* index */
@@ -419,6 +459,10 @@
         font-size: 10px;
             
     }
+    /* work */
+    #texto h2 {
+        width: 95%;
+    }
              
 }
 @media(max-width:404px){/* Samsung Galaxy Note 5 / 9 */
@@ -439,13 +483,130 @@
     }
           
 }
-/*  280px /para samsung folder mirar colum  .footer_nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+@media(max-width:280px){/* Galaxy fold */
+    /* index */
+    .navbar_portada a {
+        font-size: 15px;
 
-    } */
+    }
+    .intro {
+        height: 500px;
+
+    }
+    .intro_titulo {
+        font-size: 25px;
+        line-height: 34px;
+
+    }
+    .intro_parrafo {
+        width: 100%;
+        font-size: 14px;
+        line-height: 26px;
+
+    }
+    .conclusion_parrafo {
+        height: 800px;
+    
+    }
+    .servicios_titulo {
+        height: 60px;
+        font-size: 16px;
+
+    }
+    .servicios_categorias {
+        font-size: 14px;
+        line-height: 38px;
+
+    }
+    .conclusion_titulo {
+        height: 100px;
+        font-size: 16px;
+
+    }
+    .conclusion_contacto {
+        font-size: 16px;
+
+    }
+    .footer_nav img {
+        height: 50px;
+
+    }
+    .footer_nav a {
+        font-size: 9px;
+
+    }
+    .navbar a {
+        font-size: 16px;
+
+    }
+    footer p {
+        text-align: left;
+        font-size: 10px;
+    }
+    /* contact */
+    .field {
+        height: 75px;
+        width: 100%;
+        font-size: 14px;
+    
+    }
+    .field input {
+        width: 65%;
+    }
+    #button{
+        font-size: 18px;
+    }
+    /* work */
+    .bloque{
+        height:450px;
+        width: 100%; 
+    }
+    .bloque div:first-child{
+        width: 100%;
+        height: 50%;
+
+    }
+    .bloque div:last-child{
+        width: 100%;
+        height: 50%;
+
+     }
+     .bloque img{
+        width: 90%;
+
+    }
+    .bloque_imagen {
+        width: 90%;
+        height: auto; 
+
+    }
+    .bloque_imagen::before {
+        width: 90%;
+        height: 90%;
+
+    } 
+    #texto{
+        justify-content: center;
+     }
+     #texto h1 {
+        font-size: 18px;
+
+    }
+    #texto h2 {
+        font-size: 14px;
+
+    }
+    #texto p{
+        font-size: 12px;
+   
+    }
+    .enlace{
+        font-size: 10px;
+
+    }
+          
+}
+
   
    
              
