@@ -34,7 +34,7 @@
 
         }
 .contenido{
-    width: 70%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
             width: 50%;/* 60 */
           }
       .contenido h1{
-        width: 60%;
+        width: 50%;
         height: 250px;
         display: flex;
         justify-content: center;
@@ -299,6 +299,20 @@
     } 
 
 /* ---------------- ROCIO GUERRERO | WORK | PORTFOLIO ----------------- */
+#frase_rocio h1{
+  width: 60%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #091DD0;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 30px;
+
+}
 /* ---------------- IMBD: FICTICIO | WORK | PORTFOLIO ----------------- */
 /* ----------------- BECKER & CO. | WORK | PORTFOLIO ------------------ */
 /* -------------------- PINTURA | WORK | PORTFOLIO -------------------- */
