@@ -40,7 +40,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border:solid 2px red; */
 
 }
     .contenido div{
@@ -178,6 +177,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+#tec h1{
+  width: 60%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family:  'Noto Serif',serif; 
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  line-height: normal;
 
 }
      .portada_paginas_work_btehr h1{

@@ -427,7 +427,7 @@ footer{
 /* ----------------------------- CONTACT.HTML --------------------------------------------- */
 
 .contact{
-    width: 70%;
+    width: 75%;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -467,7 +467,7 @@ footer{
              }
         
         .formulario{
-            width: 65%;
+            width: 70%;/* 65 */
             height: 500px;
 
         }

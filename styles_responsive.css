@@ -417,6 +417,58 @@
         justify-content: center;
         
     }
+    .contenido{
+        width: 100%;/* 70 */
+    
+    }
+    .imagen_portada img{
+        width: 70%;
+      }
+    .contenido h1{
+        width: 70%;
+        height: 250px;
+        font-size: 25px;
+     
+    }
+    #tec h1{
+        width: 70%;
+        height: 250px;
+        font-size: 25px; 
+
+    }
+    #imagen_deassin{
+        width: 90%;
+
+    }
+    #imagenes_deassin{
+        width: 90%;
+
+    }
+    #parrafo{
+        width: 90%;
+        height: 270px;
+        
+    }
+    #parrafo p{
+        font-size: 16px;
+    
+    }
+    #parrafo p:nth-child(4){
+        font-weight: bolder;
+
+    }
+    #parrafo a{
+        font-size: 12px;
+
+    }
+    #parrafo_2{
+        width: 90%;
+  
+    }
+    #parrafo_2 p{
+        font-size: 16px;
+
+    }
     /* contact */
     .contact{
         width: 90%;
@@ -481,12 +533,23 @@
         line-height: 54px;
 
     }
+    /* work / páginas */
+    .contenido h1{
+        width: 85%;
+        height: 250px;
+        font-size: 22px;
+     
+    }
           
 }
 @media(max-width:280px){/* Galaxy fold */
+    .navbar a {/* navbar páginas */
+        font-size: 14px;
+
+    }
     /* index */
     .navbar_portada a {
-        font-size: 15px;
+        font-size: 14px;
 
     }
     .intro {
@@ -603,6 +666,46 @@
     .enlace{
         font-size: 10px;
 
+    }
+    /* work / páginas */
+    .contenido h1 {
+        width: 90%;
+        height: 170px;
+        font-size: 16px;
+    }
+    #tec h1{
+        width: 90%;
+        height: 170px;
+        font-size: 16px; 
+        
+    }
+  /*   .portada_paginas_work h1{
+        font-size: 25px;
+
+    }
+    .portada_paginas_work h2{
+        font-size: 20px;
+
+    } */
+    .imagen_portada img{
+        width: 80%;
+    }
+   /*  #parrafo{
+        height: 200px;
+        
+    } */
+    #parrafo p{
+        font-size: 12px;
+        line-height: 30px;
+    
+    }
+    #parrafo a{
+        font-size: 10px;
+
+    }
+    #parrafo_2 p{
+        font-size: 12px;
+        line-height: 30px;
     }
           
 }
