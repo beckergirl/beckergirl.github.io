@@ -151,6 +151,22 @@
         height: 70px;
         
     }
+    /* work / páginas */
+    .contenido h1{/* deassin */
+        width: 70%;
+        font-size: 25px;
+       
+    }
+    #tec h1{/* btehr */
+        width: 75%;
+        font-size: 24px;
+      
+      }
+    #frase_rocio h1{/* rocio guerrero */
+        width: 75%;
+        font-size: 24px;
+      
+    }
    
 }
 
