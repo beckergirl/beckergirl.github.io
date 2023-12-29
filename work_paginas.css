@@ -134,6 +134,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border-bottom: solid 2px#091DD0;
         
       }
            #parrafo_2 p{
