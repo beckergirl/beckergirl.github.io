@@ -394,13 +394,11 @@ footer{
   position: fixed;
   bottom: 0;
   left: 0;
-  border-radius: 15px;
-  margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 98%;
-  height: 120px;
+  width: 100%;
+  height: 115px;
   background-color: #091DD0;
   color:#F5F5EC;
   text-align: center;
@@ -429,7 +427,7 @@ footer{
   display: inline-block;
   cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
   width: 120px;
   height: 40px;
 }
@@ -977,6 +975,32 @@ footer{
                         transform: rotate(360deg);
 
                     }
+
+/* ----------------------------- LEGAL.HTML | POLÍTICA DE PRIVACIDAD --------------------------------------------- */
+
+.politica_privacidad{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.politica_privacidad p{
+  text-align: left;
+  font-family: "Noto Serif",serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 3px ;
+
+}
+#texto_legal{
+  padding-bottom: 70px;
+}
     
 
                 
