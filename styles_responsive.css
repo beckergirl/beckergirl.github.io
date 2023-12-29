@@ -528,7 +528,7 @@
     }
     /* política de privacidad */
     .politica_privacidad{
-        width: 70%;
+        width: 75%;
       
     }
    
@@ -588,6 +588,11 @@
         height: 250px;
         font-size: 22px;
      
+    }
+      /* política de privacidad */
+      .politica_privacidad{
+        width: 80%;
+      
     }
           
 }
@@ -755,6 +760,12 @@
     #parrafo_2 p{
         font-size: 12px;
         line-height: 30px;
+
+    }
+      /* política de privacidad */
+      .politica_privacidad{
+        width: 80%;
+      
     }
           
 }
