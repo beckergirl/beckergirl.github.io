@@ -272,10 +272,9 @@
   
   #acceptCookies {
     width: 90%;
-    border-radius: 5px;
     font-size: 16px;
     margin-top: 10px;
-    width: 80px;
+    width: 100px;
     height: 30px;
     
   }
@@ -526,11 +525,10 @@
         font-size: 16px; 
         
     }
-    /* política de privacidad */
     .politica_privacidad{
-        width: 75%;
+        width: 80%;
       
-    }
+      }
    
 } 
              
@@ -588,11 +586,6 @@
         height: 250px;
         font-size: 22px;
      
-    }
-      /* política de privacidad */
-      .politica_privacidad{
-        width: 80%;
-      
     }
           
 }

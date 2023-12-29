@@ -383,7 +383,7 @@ footer{
               font-weight: 300;
             
             }
-             /* COOKIES */
+/* -------- COOKIES -------- */
  #cookieConsentBanner{
   display: flex;
   justify-content: center;
@@ -422,7 +422,7 @@ footer{
   font-weight: 400;
   color:  #091DD0;
   border: none;
-  border-radius: 10px;
+/*   border-radius: 10px; */
   text-decoration: none;
   display: inline-block;
   cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
