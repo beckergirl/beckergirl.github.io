@@ -134,7 +134,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-bottom: solid 2px#091DD0;
         
       }
            #parrafo_2 p{
@@ -162,6 +161,10 @@
             border-top:solid 2px #091DD0;
             
         } 
+        .linea{
+          border-top: solid 2px #091DD0;
+          width: 50%;
+        }
        /*  .volver{
           width: 70%;
           height: 100px;

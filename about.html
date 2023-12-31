@@ -31,32 +31,15 @@
                 </nav>
             </section><!-- cierra clase portada -->
         </main>
-        <!-- <main id="paginas">
-
-            <nav class="navbar"> 
-         
-               <a  href="portfolio.html">{ WORK }</a>
-               <a  href="#">{ ABOUT THE STUDIO }</a>
-               <a  href="contact.html">{ CONTACT }</a>
-           </nav>
-
-           <section class="about">
-               <div class="irene">
-                   <img src="img/irene_studio.png">
-               </div>
-               <div class="creative_studio">
-                   <img src="logos/logo_creativeStudio_azul.png">
-               </div>
-           </section> -->
 
             <section class="about_contenido">
                 <h5>Irene Becker Studio nace en 2012 tras terminar la Licenciatura de Bellas Artes en la Universidad Complutense de Madrid como necesidad para hacer frente 
                     a todos los encargos que me hacían como diseñadora gráfica, ilustradora y pintora. Tras más de 10 años como diseñadora y artista freelance, en 2023 me 
                     formo como desarrolladora web Full Stack en Codenotch, Madrid y me lanzo al diseño y elaboración de páginas web.</h5>
 
-                <h1>{ DEL DISEÑO GRÁFICO A LA MAQUETACIÓN WEB }</h1>
+                <button onclick="mostrarOculto()">{ DEL DISEÑO GRÁFICO A LA MAQUETACIÓN WEB }</button>
 
-                <div class="parrafo">
+                <div class="parrafo" id="oculto">
                     <p>La esencia de cualquier marca se forja a través del diseño gráfico, elementos visuales esenciales que van más allá de la mera estética. 
                     Se inicia con la creación del logotipo, seguido de la definición de sus colores corporativos y la elección de tipografías. Este diseño 
                     se expande a diversas aplicaciones, desde la documentación de uso corporativo a la presencia en redes sociales.</p>
@@ -75,9 +58,22 @@
                 
                     <p>La relación entre diseño gráfico y maquetación web es crucial en la construcción de una imagen de marca profesional. Esta sincronización entre diseño y maquetación es 
                     esencial para crear una presencia sólida y coherente en todos los aspectos, ya sea en línea u offline.</p>
-                
+
+                    <button onclick="ocultarOculto()">{ X }</button>
+                    
             </div>
-            <div class="carita"> 
+            <script>
+                function mostrarOculto() {
+                  var textoOculto = document.getElementById("oculto");
+                  textoOculto.style.display = "block"; // muestra párrafo
+                }
+                function ocultarOculto() {
+                  var textoOculto = document.getElementById("oculto");
+                  textoOculto.style.display = "none"; // oculta  párrafo
+                }
+            </script>
+
+            <div class="loguito_animacion"> 
                 <img src="logos/logo_creativeStudio_azul.png">
             </div> 
             <h1>{ Ventajas de tener una página web }</h1>

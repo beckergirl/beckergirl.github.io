@@ -478,7 +478,6 @@ footer{
               }
  
 /* ----------------------------- CONTACT.HTML --------------------------------------------- */
-
 .contact{
     width: 75%;
     height: 700px;
@@ -520,7 +519,7 @@ footer{
              }
         
         .formulario{
-            width: 70%;/* 65 */
+            width: 70%;
             height: 500px;
 
         }
@@ -931,7 +930,7 @@ footer{
             margin-top: 8%;
           }  
           
-        .about_contenido h1{
+         .about_contenido h1{ 
             align-items: center;
             font-family: 'Aesthetic-Regular';
             text-align: center;
@@ -939,7 +938,24 @@ footer{
             font-weight: 400;
             text-transform: lowercase;
 
-        }  
+        }   
+        button{
+          align-items: center;
+          font-family: 'Aesthetic-Regular';
+          text-align: center;
+          font-size: 22px;
+          font-weight: 400;
+          text-transform: lowercase;
+          border: none;
+          text-decoration: none;
+          background-color: #F5F5EC;
+
+      } 
+           button:hover{
+            cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
+            font-weight: bolder;
+
+           }
          .parrafo {
             width: 70%;
             padding-top: 5%;
@@ -955,24 +971,37 @@ footer{
                 padding-bottom: 18px;
                 
               }
+              #oculto {
+                display: none;
+              }
                #fin{
                 padding-bottom: 10%;
                }
-              .carita{/* logo en azul */
+              .loguito_animacion{
                 width: 100%;
-                height: 300px;
+                height: 320px;
+                transition: transform 0.5s;
                 display: flex;
                 justify-content: center;
                 align-items: center;
               } 
-                 .carita img{
-                    height: 160px;
+                 .loguito_animacion img{
+                    height: 150px;
                     padding-top: 40px;
                     padding-bottom: 50px;
                     transition: transform 1.0s;
                  }
-                    .carita img:hover{
-                        transform: rotate(360deg);
+                 @keyframes shrink {
+                  0% {
+                    transform: scale(1.4);
+                  }
+                  100% {
+                    transform: scale(0.5);
+                  }
+                }
+                    .loguito_animacion img:hover{
+                      transform: scale(2);
+                      animation: shrink 4s forwards;
 
                     }
 
