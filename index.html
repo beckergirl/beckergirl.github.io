@@ -11,6 +11,7 @@
     <title>IRENE BECKER CREATIVE STUDIO</title>
     <link rel="icon" href="logos/smile.png" sizes="16x16 32x32" type="image/png"><!-- Favicon -->
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" /><!-- CSS -->
+    <link rel="stylesheet" type="js" href="codigo.js" media="screen" /><!-- JS -->
     <link rel="stylesheet" type="text/css" href="styles_responsive.css" media="screen" /><!-- CSS RESPONSIVE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,28 +22,11 @@
 
         <section class="portada">
             <div class="foto_portada" >
-                <img id="foto_fondo"src="img/portadas/naveRosa_2.jpg" alt="Portada" >
+                <img id="foto_fondo"src="img/portadas/fondo.jpg" alt="Portada" >
                 <img id="logo" src="logos/logo_creativeStudio_azul.png" alt="creativeStudio" >
-            
-            <script>//no estoy segura de que me guste esto, y dejar una sóla imagen fija(pensar)
-                   document.addEventListener("DOMContentLoaded", function() {
-                        let imagenes = ["img/portadas/naveRosa_2.jpg", "velvet_inside.png", "img/deassin/portada_web_deassin.png","img/portadas/fondo.jpg"];
-                        let tiempoIntervalo = 5000; // 5 seg!
-
-                        let indiceImagenActual = 0;
-                        let foto_fondo = document.getElementById("foto_fondo");
-
-                         function cambiarImagen() {
-                            foto_fondo.src = imagenes[indiceImagenActual];
-                            indiceImagenActual = (indiceImagenActual + 1) % imagenes.length;
-                        }
-                        cambiarImagen();
-
-                     setInterval(cambiarImagen, tiempoIntervalo);
-
-                    });
-            </script>
+    
             </div><!-- cierra foto_portada -->
+
             <nav class="navbar_portada">
                 <a  href="portfolio.html">{ WORK }</a>
                 <a  href="about.html">{ ABOUT }</a>
@@ -122,22 +106,41 @@
         <p>© 2023 All Rigths Reserved. Designed by Irene Becker Studio. Madrid, Spain.</p>
     </footer>
 
+
      <!-- COOKIES -->
      <div id="cookieConsentBanner" class="cookie-consent">
         <p>Utilizamos cookies para mejorar tu experiencia en nuestro sitio. Al continuar navegando, aceptas el uso de cookies.</p>
         <button id="acceptCookies">Aceptar</button>
-      </div>
+    </div>
+    <script>
+        /*  document.addEventListener("DOMContentLoaded", function() {
+      const banner = document.getElementById("cookieConsentBanner");
+      const acceptButton = document.getElementById("acceptCookies");
 
-      <script>
-           document.addEventListener("DOMContentLoaded", function() {
-           const banner = document.getElementById("cookieConsentBanner");
-           const acceptButton = document.getElementById("acceptCookies");
+      acceptButton.addEventListener("click", function() {
+            banner.style.display = "none";
+           });
+       }); */
+ 
+    document.addEventListener("DOMContentLoaded", function() {
+      const banner = document.getElementById("cookieConsentBanner");
+      const acceptButton = document.getElementById("acceptCookies");
 
-           acceptButton.addEventListener("click", function() {
-                 banner.style.display = "none";
-                });
-            });
-    </script> 
+      // Comprobar si se ha aceptado previamente mediante una cookie
+      if (document.cookie.indexOf("cookieConsentAccepted=true") === -1) {
+        // Si no se ha aceptado previamente, mostrar el banner
+        banner.style.display = "block";
+      }
+
+      acceptButton.addEventListener("click", function() {
+        // Ocultar el banner al hacer clic en Aceptar
+        banner.classList.add("hidden");
+        // Establecer una cookie que indica que se ha aceptado
+        document.cookie = "cookieConsentAccepted=true; max-age=" + (365 * 24 * 60 * 60); // Caducidad en un año
+      });
+    });
+
+    </script>
 
 </body>
 </html>

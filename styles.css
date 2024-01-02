@@ -82,11 +82,22 @@ font-family: 'Noto Serif Display', serif;
                 object-fit: cover;
                 
                }
+               @keyframes animacion{
+                0%{
+                  transform: scale(1.2);
+                }
+                100%{
+                  transform: scale(1.0);
+                }
+
+               }
                #logo{
                 width: 45%;
                 position: absolute;
                 top: 40%;
                 left: 43.3%;
+                transition:transform 0.5s ;
+                animation: animacion 4s forwards;
             
               }
                .navbar_portada{
@@ -394,7 +405,7 @@ footer{
   position: fixed;
   bottom: 0;
   left: 0;
-  display: flex;
+  display: block;/* flex */
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -403,6 +414,18 @@ footer{
   color:#F5F5EC;
   text-align: center;
   cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
+}
+@keyframes hideBanner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.cookie-consent.hidden {
+  display: none;
+  animation: hideBanner 0.5s forwards;
 }
      .cookie-consent p {
       color:#F5F5EC;
@@ -991,17 +1014,19 @@ footer{
                     padding-bottom: 50px;
                     transition: transform 1.0s;
                  }
-                 @keyframes shrink {
+                 @keyframes latido {
                   0% {
+                    transform: scale(1.0);
+                  }
+                  50% {
                     transform: scale(1.4);
                   }
                   100% {
-                    transform: scale(0.5);
+                    transform: scale(1.0);
                   }
                 }
                     .loguito_animacion img:hover{
-                      transform: scale(2);
-                      animation: shrink 4s forwards;
+                      animation: latido 5s forwards;
 
                     }
 
