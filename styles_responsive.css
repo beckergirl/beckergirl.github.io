@@ -612,7 +612,28 @@
     #imágenes_pantallas{
         width: 90%;
        }
-             
+    .contenido{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border:solid 3px red;
+    
+    }  
+    #imagen_portfolio{
+        width: 100%;
+
+    }   
+    #imagenes_portfolio{
+        width: 100%;
+
+    }  
+    .contenido_ewp{
+        width: 95%;
+      
+    }
 }
 @media(max-width:404px){/* Samsung Galaxy Note 5 / 9 */
     /* index */
