@@ -518,8 +518,15 @@
         width: 70%;
         
     }
-    /* work / pñagina rocio guerrero */
+    /* work / página Rocio Guerrero */
     #frase_rocio h1{
+        width: 90%;
+        height: 170px;
+        font-size: 16px; 
+        
+    }
+    /* work / página EWP */
+    #ewp h1{
         width: 90%;
         height: 170px;
         font-size: 16px; 

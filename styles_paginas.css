@@ -63,15 +63,15 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-family: 'nib-regular-pro'; /* tipografía Deassin */
-        font-weight: normal;
+        font-family: 'Aesthetic-Regular';
         font-style: normal;
+        font-weight: 400;
         font-size: 30px;
         font-style: italic;
         line-height: normal;
 
       }
-      #imagen_deassin{
+      #imagen_portfolio{
         width: 70%;
         height: auto;
         display: flex;
@@ -80,11 +80,11 @@
         align-items: center;
 
       }
-           #imagen_deassin img{
+           #imagen_portfolio img{
             width: 100%;
 
            }
-      #imagenes_deassin{
+      #imagenes_portfolio{
         width: 70%;
         height: auto;
         display: flex;
@@ -93,7 +93,7 @@
         align-items: center;
 
       }
-           #imagenes_deassin img{
+           #imagenes_portfolio img{
             width: 50%;
 
            }
@@ -228,7 +228,6 @@
           }
             
 /* -------------------- BTEHR | WORK | PORTFOLIO ---------------------- */
-
 .portada_paginas_work_btehr{
     width: 100%;
     height: 300px;
@@ -318,13 +317,92 @@
 
 }
 /* ---------------- EASY WINTER PHASE | WORK | PORTFOLIO ----------------- */
+.contenido_ewp{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(img/ewp/espada_medieval.png);
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+     .contenido_ewp div{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
 #ewp h1{
-  width: 70%;
-  height: 250px;
-  /* color: #982525; */
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: left;
   font-family: 'Noto Sans', sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;;
 
 }
+ #parrafo_2 h1{
+  font-family: 'Aesthetic-Regular';
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: lowercase;
+  margin-bottom: 3%;
+}
+#parrafo h1{
+  font-family: 'Aesthetic-Regular';
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 3%;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: lowercase;
+
+}
+.avatares{
+  width: 80%;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+       #avatares_A{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+      
+      }
+           #avatares_A img{
+            width: 25%;
+          
+          }
+      #avatares_B{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      
+      }
+           #avatares_B img{
+            width: 25%;
+          
+          }
+ 
 /* ---------------- IMBD: FICTICIO | WORK | PORTFOLIO ----------------- */
 /* ----------------- BECKER & CO. | WORK | PORTFOLIO ------------------ */
 /* -------------------- PINTURA | WORK | PORTFOLIO -------------------- */
