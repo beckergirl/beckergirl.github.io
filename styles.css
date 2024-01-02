@@ -69,22 +69,33 @@ font-family: 'Noto Serif Display', serif;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    
+
+        }
+        @keyframes cambiarColor {/* polaroids (index & about) */
+          0% {
+            box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+          }
+          50% {
+            box-shadow: 0 0 20px rgba(255, 182, 193, 0.8);
+          }
+          100% {
+            box-shadow: 0 0 20px rgba(70, 130, 180, 0.8);
+          }
         }
                .foto_portada{
                  width: 75%;
                  height: 100%;
+                 transition: shadow 0.5s;
+               /*   animation: cambiarColor 3s infinite alternate;  */
 
                 }
                #foto_fondo{
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                transition: shadow 0.5s;
-                animation: cambiarColor 3s infinite alternate; 
                 
                }
-               @keyframes animacion{
+               @keyframes animacion{/* logos (index & about) */
                 0%{
                   transform: scale(1.2);
 
@@ -94,24 +105,14 @@ font-family: 'Noto Serif Display', serif;
                 }
 
                }
-               @keyframes cambiarColor {
-                0% {
-                  box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
-                }
-                50% {
-                  box-shadow: 0 0 20px rgba(255, 182, 193, 0.8);
-                }
-                100% {
-                  box-shadow: 0 0 20px rgba(70, 130, 180, 0.8);
-                }
-              }
-          
+
                #logo{
                 width: 45%;
                 position: absolute;
                 top: 40%;
                 left: 43.3%;
                 transition:transform 0.5s ;
+                animation: animacion 4S forwards;
             
               }
           
@@ -314,9 +315,12 @@ font-family: 'Noto Serif Display', serif;
               .ejemplos a img{
                 width: 96%;
                 height: auto;
+                
               }
                   .ejemplos a img:hover{
                     transform: scale(0.9);
+                    transition: shadow 0.5s;
+                    animation: cambiarColor 3s infinite alternate; 
                     cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
 
                   }
@@ -418,12 +422,12 @@ footer{
  }
  .cookie-consent {
   position: fixed;
-  bottom: 0;
-  left: 0;
+  bottom: 40;
+  left: 40;
   display: block;/* flex */
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 40%;
   height: 115px;
   background-color: #091DD0;
   color:#F5F5EC;
@@ -586,8 +590,7 @@ footer{
             }
                   .field label{
                     width: 20%;
-                    
-
+                
                   }
                    .field input{
                     width: 80%;
@@ -596,7 +599,7 @@ footer{
                     border-bottom: solid 2px #091DD0;
                     font-family: 'Noto Sans', sans-serif;
                     background-color: transparent;
-                    
+ 
                   }
                 
                   #button{
@@ -710,6 +713,9 @@ footer{
                   width: 95%;
                   height: auto;
                   border-radius: 10px;
+
+               /*    transition: shadow 0.5s;
+                  animation: cambiarColor 3s infinite alternate;  */
 
                 } 
                 .bloque_imagen {/*HOVER imagenes PORTFOLIO*/

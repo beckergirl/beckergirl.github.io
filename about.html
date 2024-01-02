@@ -58,20 +58,19 @@
                 
                     <p>La relación entre diseño gráfico y maquetación web es crucial en la construcción de una imagen de marca profesional. Esta sincronización entre diseño y maquetación es 
                     esencial para crear una presencia sólida y coherente en todos los aspectos, ya sea en línea u offline.</p>
-
-                    <button onclick="ocultarOculto()">{ X }</button>
                     
             </div>
-            <script>
+     
+             <script>
                 function mostrarOculto() {
                   var textoOculto = document.getElementById("oculto");
-                  textoOculto.style.display = "block"; // muestra párrafo
+                  if (textoOculto.style.display === "none" || textoOculto.style.display === "") {
+                    textoOculto.style.display = "block"; 
+                  } else {
+                    textoOculto.style.display = "none";
+                  }
                 }
-                function ocultarOculto() {
-                  var textoOculto = document.getElementById("oculto");
-                  textoOculto.style.display = "none"; // oculta  párrafo
-                }
-            </script>
+              </script>
 
             <div class="loguito_animacion"> 
                 <img src="logos/logo_creativeStudio_azul.png">

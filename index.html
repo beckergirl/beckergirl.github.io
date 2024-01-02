@@ -113,32 +113,16 @@
         <button id="acceptCookies">Aceptar</button>
     </div>
     <script>
-        /*  document.addEventListener("DOMContentLoaded", function() {
-      const banner = document.getElementById("cookieConsentBanner");
-      const acceptButton = document.getElementById("acceptCookies");
 
-      acceptButton.addEventListener("click", function() {
+      document.addEventListener("DOMContentLoaded", function() {
+          const banner = document.getElementById("cookieConsentBanner");
+          const acceptButton = document.getElementById("acceptCookies");
+
+          acceptButton.addEventListener("click", function() {
             banner.style.display = "none";
+
            });
-       }); */
- 
-    document.addEventListener("DOMContentLoaded", function() {
-      const banner = document.getElementById("cookieConsentBanner");
-      const acceptButton = document.getElementById("acceptCookies");
-
-      // Comprobar si se ha aceptado previamente mediante una cookie
-      if (document.cookie.indexOf("cookieConsentAccepted=true") === -1) {
-        // Si no se ha aceptado previamente, mostrar el banner
-        banner.style.display = "block";
-      }
-
-      acceptButton.addEventListener("click", function() {
-        // Ocultar el banner al hacer clic en Aceptar
-        banner.classList.add("hidden");
-        // Establecer una cookie que indica que se ha aceptado
-        document.cookie = "cookieConsentAccepted=true; max-age=" + (365 * 24 * 60 * 60); // Caducidad en un año
-      });
-    });
+        }); 
 
     </script>
 
