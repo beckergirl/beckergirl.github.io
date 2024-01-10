@@ -107,7 +107,10 @@
            }
       #parrafo{
         width: 80%;
-        height: 270px;
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        /* height: 270px; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -137,11 +140,13 @@
               }
     #parrafo_2{
         width: 80%;
-        height: 250px;
+        height: auto;/* 250 */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 25PX;
+        padding-bottom: 25PX;
         
       }
            #parrafo_2 p{
@@ -360,6 +365,7 @@
   padding-bottom: 35px;;
 
 }
+
  #parrafo_2 h1{
   font-family: 'Aesthetic-Regular';
   text-align: center;
@@ -392,6 +398,11 @@
              #imágenes_pantallas img{
               width: 49%;
       
+             }
+             #imágenes_pantallas img{
+              padding-top: 30px;
+            /*   border: solid 2px #091DD0; */
+
              }
 .avatares{
   width: 80%;
@@ -433,6 +444,10 @@
             transform: scale(1.1);
            
            }
+        .creacion_casas{/* parrafo 2 h1 */
+           padding-top: 30px;
+
+        }
         #campañas{
           width: 100%;
           height: auto;
