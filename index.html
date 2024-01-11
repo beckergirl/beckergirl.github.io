@@ -11,7 +11,6 @@
     <title>IRENE BECKER CREATIVE STUDIO</title>
     <link rel="icon" href="logos/smile.png" sizes="16x16 32x32" type="image/png"><!-- Favicon -->
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" /><!-- CSS -->
-    <link rel="stylesheet" type="js" href="codigo.js" media="screen" /><!-- JS -->
     <link rel="stylesheet" type="text/css" href="styles_responsive.css" media="screen" /><!-- CSS RESPONSIVE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,7 +112,25 @@
         <button id="acceptCookies">Aceptar</button>
     </div>
     <script>
+        /* imágenes portada */
+        document.addEventListener("DOMContentLoaded", function() {
+    let imagenes = ["img/portadas/portada_deassin.png","img/portadas/velvet_inside.png","img/portadas/portada_becker.png","img/portadas/cuadro.png"];
+    let tiempoIntervalo = 5000; 
 
+    let indiceImagenActual = 0;
+    let foto_fondo = document.getElementById("foto_fondo");
+
+     function cambiarImagen() {
+        foto_fondo.src = imagenes[indiceImagenActual];
+        indiceImagenActual = (indiceImagenActual + 1) % imagenes.length;
+    }
+    cambiarImagen();
+
+ setInterval(cambiarImagen, tiempoIntervalo);
+
+}); 
+
+/* cookies */
       document.addEventListener("DOMContentLoaded", function() {
           const banner = document.getElementById("cookieConsentBanner");
           const acceptButton = document.getElementById("acceptCookies");
