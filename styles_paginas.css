@@ -23,6 +23,15 @@
             text-transform: lowercase; 
 
         }
+             .portada_paginas_work h1:hover{
+               font-size: 48px;
+
+               }
+              .portada_paginas_work a:hover{
+                 cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
+                
+              }
+
         .portada_paginas_work h2{
             width: 100%;
             text-align: center;
@@ -250,6 +259,7 @@
     align-items: center;
 
 }
+
 #tec h1{
   width: 60%;
   height: 250px;
@@ -275,6 +285,14 @@
         text-transform: lowercase; 
 
     }
+    .portada_paginas_work_btehr h1:hover{
+      font-size: 48px;
+
+      }
+     .portada_paginas_work_btehr a:hover{
+        cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
+       
+     }
     .portada_paginas_work_btehr h2{
         width: 100%;
         text-align: center;
