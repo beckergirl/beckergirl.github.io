@@ -519,6 +519,13 @@ footer{
               }
  
 /* ----------------------------- CONTACT.HTML --------------------------------------------- */
+#fondo_contact{
+  background-image: url(logos/cursores_constelacion.png);
+  background-position: right bottom;
+  background-size: 30%;
+  background-repeat: no-repeat;
+
+}
 .contact{
     width: 75%;
     height: 700px;
@@ -535,6 +542,11 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            background-image: url(logos/cursores_constelacion.png);
+            background-position: center bottom;
+            background-size: 25%;
+            background-repeat: no-repeat;
          
          } 
              .direccion h1{
@@ -563,6 +575,11 @@ footer{
             width: 70%;
             height: 500px;
 
+            background-image: url(logos/cursores_constelacion.png);
+            background-position: right;
+            background-size: 20%;
+            background-repeat: no-repeat;
+
         }
             #form{
                 width: 100%;
@@ -570,6 +587,12 @@ footer{
                 flex-direction: column;
                 justify-content:center;
                 align-items: center;
+
+                background-image: url(logos/cursores_constelacion.png);
+                background-position: left top;
+                background-size: 25%;
+                background-repeat: no-repeat;
+
             }
             .field{
                 height: 75px;
