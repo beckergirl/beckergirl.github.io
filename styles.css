@@ -759,8 +759,20 @@ footer{
                     z-index: 1; 
 
                   }
+                  #alvaro_gomis:hover::before {
+                    content: "";/* www.alvarogomis.com */
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/alvaro_gomis/alvaro_gomis_web.png);
+                    background-repeat: no-repeat;
+                    background-size:100%;
+                    background-position: center;
+              
+                  } 
                   #unmap:hover::before {
-                    content: "";/* www.deassin.es */
+                    content: "";/* www.unmap.es */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
