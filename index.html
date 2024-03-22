@@ -26,17 +26,21 @@
     
             </div><!-- cierra foto_portada -->
 
+
             <nav class="navbar_portada">
                 <a  href="portfolio.html">{ WORK }</a>
                 <a  href="about.html">{ ABOUT }</a>
                 <a  href="contact.html">{ CONTACT }</a>
             </nav>
         </section><!-- cierra clase portada -->
-
+         <!-- COOKIES -->
+ <div id="cookieConsentBanner" class="cookie-consent">
+    <p>Utilizamos cookies para mejorar tu experiencia en nuestro sitio. Al continuar navegando, aceptas el uso de cookies.</p>
+     <button id="acceptCookies" onclick="acceptCookies()">Aceptar</button>
+</div>
     </main><!-- cierre de portada -->
 
     <aside><!-- cuerpo -->
-
        <section class="intro">
 
             <div class="intro_titulo">
@@ -105,12 +109,6 @@
         <p>© 2023 All Rigths Reserved. Designed by Irene Becker Studio. Madrid, Spain.</p>
     </footer>
 
-
-     <!-- COOKIES -->
-     <div id="cookieConsentBanner" class="cookie-consent">
-        <p>Utilizamos cookies para mejorar tu experiencia en nuestro sitio. Al continuar navegando, aceptas el uso de cookies.</p>
-        <button id="acceptCookies">Aceptar</button>
-    </div>
     <script>
         /* imágenes portada */
         document.addEventListener("DOMContentLoaded", function() {
@@ -131,15 +129,19 @@
 }); 
 
 /* cookies */
-      document.addEventListener("DOMContentLoaded", function() {
-          const banner = document.getElementById("cookieConsentBanner");
-          const acceptButton = document.getElementById("acceptCookies");
 
-          acceptButton.addEventListener("click", function() {
-            banner.style.display = "none";
+    document.addEventListener("DOMContentLoaded", function() {
+       let banner = document.getElementById("cookieConsentBanner");
+       let acceptButton = document.getElementById("acceptCookies");
 
-           });
-        }); 
+    acceptButton.addEventListener("click", function() {
+        banner.style.display = "none";
+        
+        setTimeout(function() {
+            banner.style.display = "block";
+        }, 3600000); // 1 hora 
+    });
+});
 
     </script>
 
