@@ -172,6 +172,7 @@ font-family: 'Noto Serif Display', serif;
                 font-weight: 400;
                 line-height: 90px;
                 padding-top: 50px;
+                
 
             }
             .intro_parrafo{
@@ -211,10 +212,14 @@ font-family: 'Noto Serif Display', serif;
                     font-family: 'Noto Serif', serif;
                     font-size: 22px;
                     font-style: normal;
-                    font-weight: 100;
+                    font-weight: 300;
                     line-height: normal;
 
                  }
+                 /* .servicios_titulo p{
+                  background-color: #DBFF01;
+     
+                  } */
                  .servicios_categorias{
                     width: 100%;
                     height: 450px;
@@ -230,7 +235,7 @@ font-family: 'Noto Serif Display', serif;
                     text-align: center;
                     font-size: 22px;
                     font-style: normal;
-                    font-weight: 400;
+                    font-weight: 300;
                     line-height: 60px;
                     text-transform: lowercase;
                     
@@ -254,7 +259,8 @@ font-family: 'Noto Serif Display', serif;
                 height: 80px;
                 width: 100%;
                 border-top: solid 2px #091DD0;
-                border-bottom: solid 2px#091DD0;
+                border-bottom: solid 2px#091DD0; 
+               /*  background-color: #ffc0cb; */
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -262,10 +268,14 @@ font-family: 'Noto Serif Display', serif;
                 font-family: 'Noto Serif', serif;
                 font-size: 22px;
                 font-style: normal;
-                font-weight: 100;
+                font-weight: 300;
                 line-height: normal;
 
              }
+            /*   .conclusion_titulo p{
+             background-color: #DBFF01;
+
+             }  */
              .conclusion_parrafo{
                 height: 345px;
                 width: 70%;
@@ -416,6 +426,7 @@ footer{
 /* -------- COOKIES -------- */
  #cookieConsentBanner{
   display: flex;
+  flex-direction: row;/*  */
   justify-content: center;
   align-items: center;
 
@@ -425,9 +436,9 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-top: 0px;
+   top: 0px;
   width: 100%;
-  height: 85px;
+  height: 67px;
   background-color: #091DD0;
   color:#F5F5EC;
   text-align: center;
@@ -469,15 +480,16 @@ top: 0px;
   border: none;
   text-decoration: none;
   display: inline-block;
-  cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
+  cursor: url(img/cursores/cursor_fluor.png) 16 16, auto;
   font-size: 20px;
-  margin-top: 15px;
   width: 120px;
   height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
         #acceptCookies:hover{
-          background-color:  #091DD0;
-          color: #ffc0cb;
+          background-color: #DBFF01;
+          color:#091DD0;
         }
 
 /* ----------------------------- NAVBAR DE ABOUT / CONTACT & WORK (PORTFOLIO) --------------------------------------------- */

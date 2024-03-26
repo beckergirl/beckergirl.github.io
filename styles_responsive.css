@@ -267,6 +267,10 @@
 @media(max-width:480px){/* Samsung Galaxy Note 5 / 9 */
 
      /* COOKIES */
+     #cookieConsentBanner{
+        flex-direction: column;/*  */
+
+       }
    .cookie-consent {
     width: 100%;
     height: 120px;
