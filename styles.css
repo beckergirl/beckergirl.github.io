@@ -29,6 +29,7 @@ font-family: 'Noto Serif Display', serif;
 *{
     margin: 0px;
     padding: 0px;
+    /* color:#0000FF; */
     color: #091DD0;
 
  }
@@ -514,6 +515,7 @@ footer{
        flex-direction: row;
        justify-content: center;
        align-items: center;
+       /* border-bottom: solid 2px #091DD0; */
     }
          .navbar a{
             width: 33.3%;
@@ -692,7 +694,7 @@ footer{
 /* ----------------------------- PORTFOLIO.HTML | WORK --------------------------------------------- */
 .paginas_encabezado{
     width: 90%;
-    height: 250px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;

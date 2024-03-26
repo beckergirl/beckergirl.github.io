@@ -483,6 +483,12 @@
         font-size: 25px; 
 
     }
+    #alvaro_title h1{
+        width: 70%;
+        height: 250px;
+        font-size: 25px; 
+
+    }
     #imagen_deassin{
         width: 90%;
 
@@ -839,6 +845,12 @@
         font-size: 16px;
     }
     #tec h1{
+        width: 90%;
+        height: 170px;
+        font-size: 16px; 
+        
+    }
+    #alvaro_titleh1{
         width: 90%;
         height: 170px;
         font-size: 16px; 
