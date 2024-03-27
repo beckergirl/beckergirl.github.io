@@ -33,10 +33,11 @@
                 <a  href="contact.html">{ CONTACT }</a>
             </nav>
         </section><!-- cierra clase portada -->
+
          <!-- COOKIES -->
- <div id="cookieConsentBanner" class="cookie-consent">
+<div id="cookieConsentBanner" class="cookie-consent">
     <p>Utilizamos cookies para mejorar tu experiencia en nuestro sitio. Al continuar navegando, aceptas el uso de cookies.</p>
-     <button id="acceptCookies" onclick="acceptCookies()">Aceptar</button>
+    <button id="acceptCookies" onclick="acceptCookies()">Aceptar</button>
 </div>
     </main><!-- cierre de portada -->
 
@@ -51,7 +52,7 @@
                 <p>La relación entre diseño gráfico y maquetación web es crucial en la construcción de una imagen de marca profesional.</p>
             </div>
         
-            <img src="img/NEW WEB/mac_flores.png" alt="mac_logo" >
+            <img id="mac" src="img/mac_amarillo.png" alt="mac_logo" >
        
 
        </section> <!-- cierra cuerpo -->
@@ -110,23 +111,41 @@
     </footer>
 
     <script>
-        /* imágenes portada */
+/* imágenes portada */
         document.addEventListener("DOMContentLoaded", function() {
-    let imagenes = ["img/portadas/naveRosa_2.jpg","img/portadas/portada_deassin.png","img/portadas/velvet_inside.png","img/portadas/portada_becker.png","img/alvaro_gomis/WEB_PORTADA_alvaroGomis.png","img/portadas/cuadro.png"];
-    let tiempoIntervalo = 5000; 
+             let imagenes = ["img/portadas/naveRosa_2.jpg","img/portadas/portada_deassin.png","img/portadas/velvet_inside.png","img/portadas/portada_becker.png","img/alvaro_gomis/WEB_PORTADA_alvaroGomis.png","img/portadas/cuadro.png"];
+             let tiempoIntervalo = 5000; 
 
-    let indiceImagenActual = 0;
-    let foto_fondo = document.getElementById("foto_fondo");
+              let indiceImagenActual = 0;
+              let foto_fondo = document.getElementById("foto_fondo");
 
-     function cambiarImagen() {
-        foto_fondo.src = imagenes[indiceImagenActual];
-        indiceImagenActual = (indiceImagenActual + 1) % imagenes.length;
-    }
-    cambiarImagen();
+            function cambiarImagen() {
+                foto_fondo.src = imagenes[indiceImagenActual];
+                indiceImagenActual = (indiceImagenActual + 1) % imagenes.length;
+            }
+         cambiarImagen();
 
- setInterval(cambiarImagen, tiempoIntervalo);
+         setInterval(cambiarImagen, tiempoIntervalo);
+        
+        }); 
 
-}); 
+/* imágenes ordenador */
+document.addEventListener("DOMContentLoaded", function() {
+             let imagenes2 = ["img/mac_smile.png","img/mac_deassin_eshop.png","img/mac_alvarogomis.png", "img/mac_web.png","img/mac_rocio.png","img/mac_amarillo.png"];
+             let tiempoIntervalo2 = 3000; 
+
+              let indiceImagenActual2 = 0;
+              let mac = document.getElementById("mac");
+
+            function cambiarImagen2() {
+                mac.src = imagenes2[indiceImagenActual2];
+                indiceImagenActual2 = (indiceImagenActual2 + 1) % imagenes2.length;
+            }
+         cambiarImagen2();
+
+         setInterval(cambiarImagen2, tiempoIntervalo2);
+        
+        }); 
 
 /* cookies */
 
