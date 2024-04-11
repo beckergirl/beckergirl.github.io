@@ -515,7 +515,8 @@ footer{
        flex-direction: row;
        justify-content: center;
        align-items: center;
-       /* border-bottom: solid 2px #091DD0; */
+      /*  background-color: #ffc0cb; */
+     /*   border-bottom:solid 2px #091DD0; */
     }
          .navbar a{
             width: 33.3%;
