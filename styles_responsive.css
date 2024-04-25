@@ -1,8 +1,6 @@
 /* -------STYLES RESPONSIVE------- */
 @media(min-width:1500px){
-    *{
-        background-color: pink;
-    }
+  
     /* index */
     .navbar_portada a{
         font-size: 24px;
