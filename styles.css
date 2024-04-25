@@ -132,6 +132,7 @@ font-family: 'Noto Serif Display', serif;
                         text-align: center;
                         font-family: "Noto Serif",serif;
                         font-size: 18px;
+                        font-size: 22px;
                         font-style: normal;
                         font-weight: 300;
 
@@ -739,7 +740,7 @@ footer{
 
      }
          .bloque div{
-            width: 40%;
+            width: 50%;/* 40 */
             height: 400px;
             display: flex;
             flex-direction: column;
@@ -752,32 +753,31 @@ footer{
 
          }
                .bloque img{
-                  width: 95%;
+                  width: 100%;/* 95 */
                   height: auto;/* 85 / cover */
                   border-radius: 10px;
                   object-fit: cover;
 
-               /*    transition: shadow 0.5s;
-                  animation: cambiarColor 3s infinite alternate;  */
-
                 } 
                 .bloque_imagen {/*HOVER imagenes PORTFOLIO*/
                     width: 95%;
-                    height: auto; 
+                    height: 100%; /* auto */
                     position: relative;
                     overflow: hidden;
+                    object-fit: cover;
 
                 }
 
                 .bloque_imagen::before {
                     position: absolute;
-                    width: 95%;
-                    height: 95%;
+                    width: 100%;
+                    height: 100%;/* 95 */
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     transition: background-color 0.3s ease-in-out; 
                     z-index: 1; 
+                    border-radius: 10px;
 
                   }
                   #alvaro_gomis:hover::before {

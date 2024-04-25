@@ -1,5 +1,64 @@
 /* -------STYLES RESPONSIVE------- */
+@media(min-width:1235px){
+    /* index */
+    .navbar_portada a{
+        font-size: 24px;
 
+    }
+       
+    .intro{
+        width: 80%;
+        height: 1000px;
+    
+    }
+    /* portfolio */
+    .navbar a{
+        font-size: 24px;
+    }
+.bloque{
+    width: 70%;
+    height:400px;
+  
+
+ }
+           .bloque img{
+              height:85%;
+              width: auto;
+
+            } 
+            .bloque_imagen::before {
+               
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+
+            }
+            #texto{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+               /*  border:solid 2px red; */
+
+            }
+            
+            #texto h1{
+                font-size: 30px;
+                
+            }
+            #texto h2{
+                font-size: 18px;
+                width: 85%;
+
+            }
+            #texto p{
+                font-size: 16px;
+            }
+                  .enlace{
+                    font-size: 13px;
+                
+                }
+}
 @media(max-width:1000px){
     /* index */
   /*   .ejemplos{
@@ -9,18 +68,19 @@
 }
 @media(max-width:900px){
     /* work */
-    .bloque div{
-        width: 45%; 
+   /*  .bloque div{
+        width: 45%;
 
-    } 
+    }  */
+    
      .bloque_imagen {
         width: 100%;
 
     }
-    #texto{
+  /*   #texto{
         width: 55%;
 
-    }
+    } */
    
 }
 
@@ -96,13 +156,17 @@
         width: 40%; 
 
      } 
-     .bloque_imagen {
+  /*    .bloque_imagen {
         width: 100%;
 
 
-    }
+    } */
 
 }
+@media(max-width:700px){
+    
+}
+
 
 @media(max-width:700px){
     
