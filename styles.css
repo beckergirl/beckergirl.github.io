@@ -562,8 +562,6 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            background-image: url(logos/cursores_constelacion.png);
             background-position: center bottom;
             background-size: 25%;
             background-repeat: no-repeat;
