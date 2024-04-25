@@ -301,7 +301,7 @@ font-family: 'Noto Serif Display', serif;
                 font-style: normal;
                 font-weight: 400;
                 text-transform: lowercase;
-                text-shadow: 1px #091DD0;
+                /* text-shadow: 1px #091DD0; */
                 
             }
                   .conclusion_contacto a:hover{
@@ -536,8 +536,9 @@ footer{
               }
   
 /* ----------------------------- CONTACT.HTML --------------------------------------------- */
+
 #fondo_contact{
-  background-image: url(logos/cursores_constelacion.png);
+
   background-position: right bottom;
   background-size: 30%;
   background-repeat: no-repeat;
@@ -926,7 +927,7 @@ footer{
                     content: "";
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
-                    font-size: 15px;
+                    /* font-size: 15px; */
                     font-style: normal;
                     background-image: url(img/portfolio/pintura_hover.png);
                     background-repeat: no-repeat;
@@ -1070,7 +1071,7 @@ footer{
 
           } 
              .parrafo p{
-                text-align: justify center;
+                text-align: justify;
                 font-family: 'Noto Serif', serif;
                 font-size: 18px;
                 font-style: normal;
