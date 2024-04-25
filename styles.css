@@ -311,24 +311,26 @@ font-family: 'Noto Serif Display', serif;
                 }
 
           .ejemplos{
-            width: 70%;
-            height: 340px;
+            width: 95%;
+            /* height: 340px; */
+            height: auto;
+            padding-bottom: 4vh;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: flex-start;
+            align-items:flex-start;
 
           }
-              .ejempos a{
-                width: 25%;
+              #card{
+                width: 24%;
 
               }
-              .ejemplos a img{
-                width: 96%;
+              #card img{
+                width: 100%;
                 height: auto;
                 
               }
-                  .ejemplos a img:hover{
+                  #card img:hover{
                     transform: scale(0.9);
                     transition: shadow 0.5s;
                     animation: cambiarColor 3s infinite alternate; 
@@ -663,7 +665,7 @@ footer{
 
                   }
                   #button:hover{
-                    font-size: 24px;
+                    font-size: 26px;
                     cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
 
                   }
