@@ -776,8 +776,7 @@ footer{
                     justify-content: center;
                     align-items: center;
                     transition: background-color 0.3s ease-in-out; 
-                    z-index: 1; 
-                    border-radius: 10px;
+                    z-index: 1;
 
                   }
                   #alvaro_gomis:hover::before {
@@ -788,7 +787,7 @@ footer{
                     font-style: normal;
                     background-image: url(img/portfolio/alvaro_gomis_web_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
               
                   } 
@@ -800,7 +799,7 @@ footer{
                     font-style: normal;
                     background-image: url(img/portfolio/unmap_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
               
                   } 
@@ -813,108 +812,108 @@ footer{
                     font-style: normal;
                     background-image: url(img/portfolio/deassin_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
               
                   } 
-                  #btehr:hover::before {
-                    content: ""; 
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal; 
-                    background-image: url(img/portfolio/btehr_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:100%;
-                    background-position: center;
-
-                  } 
                   #guerrero:hover::before {
-                    content: "";
+                    content: "";/* www.rocioguerrero.art */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
                     background-image: url(img/portfolio/guerrero_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
+                    background-position: center;
+
+                  } 
+                  #btehr:hover::before {
+                    content: ""; /* www.btehr.com */
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal; 
+                    background-image: url(img/portfolio/btehr_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:101%;
                     background-position: center;
 
                   } 
                   #ewp:hover::before {
-                    content: "";
+                    content: "";/* app */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
                     background-image: url(img/portfolio/ewp_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
 
                   } 
                   #imbd:hover::before {
-                    content: "";
+                    content: "";/* behance */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
                     background-image: url(img/portfolio/imbd_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
 
                   } 
                   #velvet:hover::before {
-                    content: "";
+                    content: "";/* behance */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
                     background-image: url(img/portfolio/velvet_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
 
                   } 
                   #hola:hover::before {
-                    content: "";
+                    content: "";/* behance */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
                     background-image: url(img/portfolio/tarjeta_hola!_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
 
                   } 
                   #primavera:hover::before {
-                    content: "";
+                    content: "";/* behance */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
                     background-image: url(img/portfolio/primavera_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
 
                   } 
                   #kaiku:hover::before {
-                    content: "";
+                    content: "";/* behance */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
                     background-image: url(img/portfolio/kaiku_hover.png);
                     background-repeat: no-repeat;
-                    background-size:100%;
+                    background-size:101%;
                     background-position: center;
 
                   }
                   #boheart:hover::before {
-                    content: "";
+                    content: "";/* behance */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
@@ -926,7 +925,7 @@ footer{
 
                   } 
                   #pintura:hover::before {
-                    content: "";
+                    content: "";/* behance */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     /* font-size: 15px; */
@@ -938,7 +937,7 @@ footer{
 
                   }
                   #becker:hover::before {
-                    content: "";
+                    content: "";/* behance */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
