@@ -689,7 +689,7 @@ footer{
   
           .imagen-giratoria {
               position: absolute;
-              animation: girar 10s linear infinite; /* 10s es la duración, ajusta según tus necesidades */
+              animation: girar 12s linear infinite; /* 10s es la duración, ajusta según tus necesidades */
 
           }
                  .rodamiento img{
