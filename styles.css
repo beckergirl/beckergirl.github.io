@@ -644,6 +644,11 @@ footer{
                     background-color: transparent;
  
                   }
+                  .field input::placeholder{
+                    color:rgba(9, 29, 208, 0.6);
+                    font-family: 'Noto Sans', sans-serif;
+                    font-size: 15px;
+                  }
                 
                   #button{
                     width: 60%;
