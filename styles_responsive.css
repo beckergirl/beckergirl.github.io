@@ -401,10 +401,8 @@
         height: 90%;
 
     }
-   
-    
-}
 
+}
 @media(max-width:521px){
     
     /* index */
@@ -728,6 +726,10 @@
         width: 90%;
         font-size: 16px; 
         
+    }
+    #ewp h2{
+        width: 90%;
+        font-size: 16px;     
     }
     #imágenes_pantallas img {
         padding-top: 0px;
