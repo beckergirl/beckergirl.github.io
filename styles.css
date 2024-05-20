@@ -31,12 +31,11 @@ font-family: 'Noto Serif Display', serif;
     padding: 0px;
     color: #091DD0;
 
-
  }
 
- /* para que no se vean las líneas de los enlces */
+ /* NO líneas enlces */
  a:link, a:visited, a:active {
-    text-decoration:none;
+    text-decoration: none;
 }
  
  body{
@@ -59,7 +58,7 @@ font-family: 'Noto Serif Display', serif;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.1);
-
+   
   }
        .portada{
         width: 97%;
@@ -106,7 +105,6 @@ font-family: 'Noto Serif Display', serif;
                 }
 
                }
-
                #logo{
                 width: 45%;
                 position: absolute;
@@ -116,7 +114,6 @@ font-family: 'Noto Serif Display', serif;
                 animation: animacion 4S forwards;
             
               }
-          
                .navbar_portada{
                  width: 10%;/* 25 */
                  height:100%;
@@ -126,7 +123,7 @@ font-family: 'Noto Serif Display', serif;
                  align-items: center;
 
                 }
-                    .navbar_portada a{
+                   .navbar_portada a{
                         width: 200px;
                         transform: rotate(90deg);
                         text-align: center;
@@ -136,13 +133,12 @@ font-family: 'Noto Serif Display', serif;
                         font-weight: 300;
 
                     }
-                       
-                        .navbar_portada a:hover{
-                            font-size: 19px;
-                            font-weight: 500;
-                            cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
+                    .navbar_portada a:hover{
+                        font-size: 19px;
+                        font-weight: 500;
+                        cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
                         
-                        }
+                    }
 
 /* CUERPO SkROLL */
     aside{
@@ -154,8 +150,7 @@ font-family: 'Noto Serif Display', serif;
         align-items: center;
     
       }
-
-        .intro{
+      .intro{
             width: 70%;
             height: 900px;
             display: flex;
@@ -236,7 +231,7 @@ font-family: 'Noto Serif Display', serif;
                     text-align: center;
                     font-size: 22px;
                     font-style: normal;
-                    font-weight: 300;
+                    font-weight: 800;
                     line-height: 60px;
                     text-transform: lowercase;
                     
@@ -299,9 +294,8 @@ font-family: 'Noto Serif Display', serif;
                 text-align: center;
                 font-size: 22px;
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 800;
                 text-transform: lowercase;
-                /* text-shadow: 1px #091DD0; */
                 
             }
                   .conclusion_contacto a:hover{
@@ -330,15 +324,14 @@ font-family: 'Noto Serif Display', serif;
                 height: auto;
                 
               }
-                  #card img:hover{
-                    transform: scale(0.9);
-                    transition: shadow 0.5s;
-                    animation: cambiarColor 3s infinite alternate; 
-                    cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
+              #card img:hover{
+                transform: scale(0.9);
+                transition: shadow 0.5s;
+                animation: cambiarColor 3s infinite alternate; 
+                cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
 
-                  }
-
-
+              }
+/* -------- FOOTER -------- */
 footer{
     width: 100%;
     height: auto;
@@ -421,11 +414,11 @@ footer{
             height:auto;
             cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
         
-        }
-             .footer_redes a:hover{
-              font-weight: 300;
+          }
+          .footer_redes a:hover{
+            font-weight: 300;
             
-            }
+          }
 /* -------- COOKIES -------- */
  #cookieConsentBanner{
   display: flex;
@@ -660,14 +653,13 @@ footer{
                     font-family: 'Aesthetic-Regular';
                     font-size: 24px;
                     font-style: normal;
-                    font-weight: 400;
+                    font-weight: 800;
                     line-height: normal;
                     text-transform: lowercase;
                     display: flex;
                     flex-direction: row;
                     justify-items: center;
                     justify-content: center;
-
 
                   }
                   #button:hover{
