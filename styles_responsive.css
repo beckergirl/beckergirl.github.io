@@ -70,6 +70,17 @@
                     font-size: 13px;
                 
                 }
+    .footer_nav a{
+        font-size: 24px;
+                
+    }
+    .footer_redes a{
+        font-size: 16px;
+       
+    }
+    footer p{
+        font-size: 16px;
+    }
 }
 @media(max-width:1000px){
     /* work */
