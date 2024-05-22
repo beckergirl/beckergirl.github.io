@@ -1,6 +1,20 @@
 /* -------STYLES RESPONSIVE------- */
 @media(min-width:1500px){
-  
+    /* cookies */
+    .cookie-consent p {
+        font-size: 18px;
+      
+    }
+    #acceptCookies {
+        font-size: 28px;
+        width: 130px;
+        height: 40px;
+
+    }
+    #acceptCookies:hover{
+        font-size: 30px;
+
+    }
     /* index */
     .navbar_portada a{
         font-size: 24px;
