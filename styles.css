@@ -30,6 +30,7 @@ font-family: 'Noto Serif Display', serif;
     margin: 0px;
     padding: 0px;
     color: #091DD0;
+    box-sizing: border-box;
 
  }
 
