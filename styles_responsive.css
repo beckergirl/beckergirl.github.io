@@ -436,6 +436,11 @@
         height: 90%;
 
     }
+    /* portfolio */
+    .cartel{
+        display: none;
+        
+      }
 
 }
 @media(max-width:521px){
