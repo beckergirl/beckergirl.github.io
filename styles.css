@@ -88,14 +88,14 @@ font-family: 'Noto Serif Display', serif;
       display: inline-block;
       white-space: nowrap;
       padding-left: 0%;
-      animation: marquee 25s linear infinite;
+      animation: marquee 15s linear infinite;
   }
   @keyframes marquee {
     0% {
         transform: translateX(100%);
     }
     100% {
-        transform: translateX(-150%);
+        transform: translateX(-100%);
     }
 }
 
@@ -253,7 +253,7 @@ font-family: 'Noto Serif Display', serif;
 
             } 
                  .servicios_titulo{
-                    height: 80px;
+                    height: 70px;
                     width: 100%;
                    /*  border-top: solid 2px #091DD0;
                     border-bottom: solid 2px #091DD0; */
@@ -314,7 +314,7 @@ font-family: 'Noto Serif Display', serif;
 
         } 
              .conclusion_titulo{
-                height: 80px;
+                height: 70px;
                 width: 100%;
                 background-color:  #091DD0;
                 display: flex;
@@ -778,7 +778,7 @@ footer{
   font-family: 'Noto Serif', serif;
   font-style: normal;
   font-weight: 200;
-  font-size: calc(25px + 3vw);
+  font-size: calc(25px + 2.3vw);
   position: relative;
 
 }
@@ -816,7 +816,7 @@ footer{
           transform: translateX(0%);
       }
       50% {
-          transform: translateX(-5%);
+          transform: translateX(-15%);
       }
       100%{
         transform: translateX(0%);
@@ -826,8 +826,12 @@ footer{
        0% {
           transform: translateX(0%);
        }
+       25%{
+        transform: translateX(0%);
+
+       }
        50% {
-        transform: translateX(2%);
+        transform: translateX(-10%);
        }
        100%{
         transform: translateX(0%);
