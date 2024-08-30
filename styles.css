@@ -761,8 +761,9 @@ footer{
 /* cartel / new */
 .cartel{
   width: 100%;
-  height: 85vh;
-  border-bottom: solid 50px#091DD0;
+  /* height: 85vh; */
+  height: calc(100vh - 50px);
+  border-bottom: solid 50px #091DD0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
