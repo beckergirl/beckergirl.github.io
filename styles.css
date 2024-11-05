@@ -386,16 +386,16 @@ font-family: 'Noto Serif Display', serif;
             align-items:flex-start;
 
           }
-              .card{
+              #card{
                 width: 24%;
 
               }
-              .card img{
+              #card img{
                 width: 100%;
                 height: auto;
                 
               }
-              .card img:hover{
+              #card img:hover{
                 transform: scale(0.9);
                 transition: shadow 0.5s;
                 animation: cambiarColor 3s infinite alternate; 
