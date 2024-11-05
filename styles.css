@@ -255,25 +255,24 @@ font-family: 'Noto Serif Display', serif;
                  .servicios_titulo{
                     height: 70px;
                     width: 100%;
-                   /*  border-top: solid 2px #091DD0;
-                    border-bottom: solid 2px #091DD0; */
-                    color: #DBFF01;
-                    background-color:  #091DD0;
+                    border-top: solid 2px #091DD0;
+                    border-bottom: solid 2px #091DD0;
+                    /* background-color:  #091DD0; */
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     text-align: center;
-                    /* font-family: 'Noto Serif', serif; */
-                    font-family:"futura";
+                    font-family: 'Noto Serif', serif;
+                   /*  font-family:"futura"; */
                     font-size: 22px;
                     font-style: normal;
                     font-weight: 300;
                     line-height: normal;
 
                  }
-                 #color{
+                /*  #color{
                   color: #DBFF01;
-                 }
+                 } */
                  /* .servicios_titulo p{
                   background-color: #DBFF01;
      
@@ -316,13 +315,15 @@ font-family: 'Noto Serif Display', serif;
              .conclusion_titulo{
                 height: 70px;
                 width: 100%;
-                background-color:  #091DD0;
+                border-top: solid 2px #091DD0;
+                border-bottom: solid 2px #091DD0;
+               /*  background-color:  #091DD0; */
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                /* font-family: 'Noto Serif', serif; */
-                font-family: "futura";
+                font-family: 'Noto Serif', serif;
+                /* font-family: "futura"; */
                 font-size: 22px;
                 font-style: normal;
                 font-weight: 300;
@@ -375,16 +376,26 @@ font-family: 'Noto Serif Display', serif;
             align-items:flex-start;
 
           }
-              #card{
+          .ejemplos2{
+            width: 90%;
+            height: auto;
+            padding-bottom: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items:flex-start;
+
+          }
+              .card{
                 width: 24%;
 
               }
-              #card img{
+              .card img{
                 width: 100%;
                 height: auto;
                 
               }
-              #card img:hover{
+              .card img:hover{
                 transform: scale(0.9);
                 transition: shadow 0.5s;
                 animation: cambiarColor 3s infinite alternate; 
@@ -483,12 +494,10 @@ footer{
 /* -------- COOKIES -------- */
  #cookieConsentBanner{
   display: flex;
-  flex-direction: row;/*  */
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* background-color: #F5F5EC; */
   background-color: pink;
-  border: solid 3px pink;
 
  } 
  .cookie-consent {
@@ -496,7 +505,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 50px;
+  top: calc(100vh - 50px);
   width: 100%;
   height: 50px;
 /*   background-color: #091DD0; */
