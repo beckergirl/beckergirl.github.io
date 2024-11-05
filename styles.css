@@ -64,7 +64,7 @@ font-family: 'Noto Serif Display', serif;
   }
   #main-index{
     width: 100%;
-    height: calc(100vh - 50px);
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
