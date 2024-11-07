@@ -481,7 +481,7 @@
    .cookie-consent {
     width: 100%;
     height: 120px;
-    top: calc(75vh - 100px);
+    top: 75vh ;
      
     }
        .cookie-consent p {
