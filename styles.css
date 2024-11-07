@@ -65,7 +65,7 @@ font-family: 'Noto Serif Display', serif;
   #main-index{
     width: 100%;
     /* height: calc(100vh - 50px); banner*/
-   height:100vh;
+    height:100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -387,7 +387,11 @@ font-family: 'Noto Serif Display', serif;
             align-items:flex-start;
 
           }
+<<<<<<< HEAD
               .card{
+=======
+              #card{
+>>>>>>> 1071a4a4d120ef5d0229a8c5dd85bedc921c9c39
                 width: 24%;
 
               }
