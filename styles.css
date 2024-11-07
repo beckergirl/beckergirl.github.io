@@ -387,7 +387,7 @@ font-family: 'Noto Serif Display', serif;
             align-items:flex-start;
 
           }
-              #card{
+              .card{
                 width: 24%;
 
               }
