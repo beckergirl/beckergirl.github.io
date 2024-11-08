@@ -398,7 +398,8 @@ font-family: 'Noto Serif Display', serif;
               }
               .card img:hover{
                 transform: scale(0.9);
-                transition: shadow 0.5s;
+            /*     transition: shadow 0.5s; */
+                transition: all 1s ease;
                 animation: cambiarColor 3s infinite alternate; 
                 cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
 
