@@ -933,6 +933,19 @@ footer{
                     z-index: 1;
 
                   }
+/*  ---------------IMÁGENES PORTFOLIO | HOVER --------------- */
+                  #amaya_garcia:hover::before {
+                    content: "";/* www.amayagarcia.com */
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/amaya_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:101%;
+                    background-position: center;
+              
+                  } 
                   #alvaro_gomis:hover::before {
                     content: "";/* www.alvarogomis.com */
                     font-family: "Noto Serif",serif;
