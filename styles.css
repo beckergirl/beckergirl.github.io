@@ -934,13 +934,13 @@ footer{
 
                   }
 /*  ---------------IMÁGENES PORTFOLIO | HOVER --------------- */
-                  #amaya_garcia:hover::before {
-                    content: "";/* www.amayagarcia.com */
+                  #la_heredera:hover::before {
+                    content: "";/* www.laheredera.es */
                     font-family: "Noto Serif",serif;
                     font-weight: 300;
                     font-size: 15px;
                     font-style: normal;
-                    background-image: url(img/portfolio/amaya_hover.png);
+                    background-image: url(img/portfolio/la_heredera_hover.png);
                     background-repeat: no-repeat;
                     background-size:101%;
                     background-position: center;
@@ -958,6 +958,19 @@ footer{
                     background-position: center;
               
                   } 
+                  #amaya_garcia:hover::before {
+                    content: "";/* www.amayagarcia.com */
+                    font-family: "Noto Serif",serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    font-style: normal;
+                    background-image: url(img/portfolio/amaya_hover.png);
+                    background-repeat: no-repeat;
+                    background-size:101%;
+                    background-position: center;
+              
+                  } 
+    
                   #unmap:hover::before {
                     content: "";/* www.unmap.es */
                     font-family: "Noto Serif",serif;
