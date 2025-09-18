@@ -183,20 +183,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /* cookies */
 
- document.addEventListener("DOMContentLoaded", function(){
-
+ document.addEventListener("DOMContentLoaded", function () {
     let banner = document.getElementById("cookieConsentBanner");
     let acceptButton = document.getElementById("acceptCookies");
 
- acceptButton.addEventListener("click", function(){
-
+    // Comprobar si ya aceptó
+    if (localStorage.getItem("cookiesAccepted") === "true") {
         banner.style.display = "none";
-        
-        setTimeout(function() {
-            banner.style.display = "block";
-        }, 3600000); // 1 hora 
+    }
+
+    acceptButton.addEventListener("click", function () {
+        banner.style.display = "none";
+        localStorage.setItem("cookiesAccepted", "true"); // Guardar estado
     });
-}); 
+});
+
 
     </script>
 
