@@ -374,18 +374,8 @@
 
           .ejemplos{
             width: 90%;
-            /* height: 340px; */
             height: auto;
-            padding-bottom: 10vh;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items:flex-start;
-
-          }
-          .ejemplos2{
-            width: 90%;
-            height: auto;
+            padding-top: 10vh;
             padding-bottom: 10vh;
             display: flex;
             flex-direction: row;
@@ -404,7 +394,6 @@
               }
               .card img:hover{
                 transform: scale(0.9);
-            /*     transition: shadow 0.5s; */
                 transition: all 1s ease;
                 animation: cambiarColor 3s infinite alternate; 
                 cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
