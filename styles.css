@@ -341,23 +341,25 @@
                 line-height: 35px;
                 
             }
-            .conclusion_contacto{
-                height: 125px;
+               
+             .conclusion_parrafo button{
+                width: 30%;
                 align-items: center;
-                /* font-family: 'Aesthetic-Regular'; */
-                font-family: "futura";
+                font-family: Helvetica, sans-serif;
                 text-align: center;
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 400;
-                /* text-transform: lowercase; */
-  
+                font-size: 18px;
+                font-weight: 100;
+                padding: 10px 20px 10px 20px;
+                background-color: #091DD0;
+                color: #EAEAE5;
+                margin-top: 100px;
+                align-self: center;
                 
             }
-                  .conclusion_contacto a:hover{
-                    font-size: 24px;
+              .conclusion_parrafo button:hover{
                     cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
-                    color: #DBFF01;
+                    color:pink;
+                    text-decoration: none;
 
                 }
 
