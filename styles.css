@@ -148,6 +148,9 @@ font-family: 'Noto Serif Display', serif;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                 border-radius: 6px;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+                filter:contrast(0.8)
                 
                }
                @keyframes animacion{/* logos (index & about) */
