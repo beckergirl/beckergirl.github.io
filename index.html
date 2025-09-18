@@ -64,50 +64,7 @@
 
     </main><!-- cierre de portada -->
 
-    <aside><!-- cuerpo -->
-       <section class="intro">
 
-            <div class="intro_titulo">
-                <p>{ Diseño gráfico &
-                <br>maquetación Web }</p>
-            </div>
-            <div class="intro_parrafo">
-                <p>La relación entre diseño gráfico y maquetación web es crucial en la construcción de una imagen de marca profesional.</p>
-            </div>
-        
-            <img id="mac" alt="mac_logo" >
-       
-
-       </section> <!-- cierra cuerpo -->
-       
-       <section class="servicios"><!-- SERVICIOS -->
-           <div class="servicios_titulo">
-            <p id="color">NUESTROS SERVICIOS</p>
-           </div>
-           <div class="servicios_categorias">
-               <p>DISEÑO WEB</p>
-               <p>DISEÑO GRÁFICO</p>
-               <p>MAQUETACIÓN WEB [ responsive ]</p>
-               <p>MAQUETACIÓN WEB CMS [ wordpress ] </p>
-               <p>E-SHOPS [ shopify ] </p>
-           </div>
-
-       </section><!-- cierra servicios -->
-
-       <!-- <section class="conclusion">
-        <div class="conclusion_titulo">
-            <p id="color">BENEFICIOS DE TENER UNA PÁGINA WEB</p>
-        </div>
-        <div class="conclusion_parrafo">
-           <p>La presencia online es cada vez más necesaria: hoy en día todo el mundo busca información a través de internet. Contar con un sitio web no solo hará que tus clientes actuales y potenciales te encuentren, sino que también te dará visibilidad, credibilidad y respaldo para tu negocio. En definitiva, transmitirá confianza.</p>
-           <p>Además, tu página estará disponible las 24 horas, promocionando tus productos o servicios y llegando a un público mucho más amplio.</p>
-           <p>¿Quieres dar el paso y estar presente online con un diseño hecho a tu medida?</p>
-           <button  href="contact.html">ESCRÍBENOS</button>
-        </div>
-       </section> -->
-       <div class="servicios_titulo">
-            <p id="color">NUESTROS PROYECTOS</p>
-           </div>
        <section class="ejemplos"><!-- postales -->
 
           <a class="card" href="https://deassin.com/" target="_blank" rel=”noopener noreferrer><img src="img/cards/Deassin web.jpg" alt="ESHOP DEASSÍN"></a>
@@ -151,24 +108,6 @@
          cambiarImagen();
 
          setInterval(cambiarImagen, tiempoIntervalo);
-        
-        }); 
-
-/* imágenes ordenador */
-document.addEventListener("DOMContentLoaded", function() {
-             let imagenes2 = ["img/mac animación/mac_deassin_eshop.png","img/mac animación/mac_amaya_garcia.png","img/mac animación/mac_web.png","img/mac animación/mac_la_heredera.png","img/mac animación/mac_btehr.png","img/mac animación/mac_unmap.png","img/mac animación/mac_alvaro_wordpress.png","img/mac animación/mac_rocio.png","img/mac animación/mac_imbd.png","img/mac animación/mac_ewp.png"];
-             let tiempoIntervalo2 = 1000; 
-
-              let indiceImagenActual2 = 0;
-              let mac = document.getElementById("mac");
-
-            function cambiarImagen2() {
-                mac.src = imagenes2[indiceImagenActual2];
-                indiceImagenActual2 = (indiceImagenActual2 + 1) % imagenes2.length;
-            }
-         cambiarImagen2();
-
-         setInterval(cambiarImagen2, tiempoIntervalo2);
         
         }); 
 
