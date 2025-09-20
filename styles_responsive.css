@@ -225,6 +225,7 @@
 
   }
   .servicios_categorias{
+    width: calc(100% - 50px);
     height:600px;
     padding-left: 50px;
     padding-bottom: 50px;
