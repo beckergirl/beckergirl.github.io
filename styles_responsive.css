@@ -20,23 +20,6 @@
         font-size: 24px;
 
     }
-       
-    .intro{
-        width: 80%;
-        height: 1140px;/* 900 */
-    
-    }
-    .intro_titulo{
-        font-size: 70px;
-
-    }
-    .intro_parrafo{
-        font-size: 35px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-
-    }
-
     /* portfolio */
     .navbar a{
         font-size: 24px;
@@ -44,8 +27,6 @@
 .bloque{
     width: 70%;
     height:400px;
-  
-
  }
            .bloque img{
               height:85%;
@@ -114,20 +95,10 @@
         }
 }
 @media(max-width:900px){
-    /* work */
-   /*  .bloque div{
-        width: 45%;
 
-    }  */
-    
-     .bloque_imagen {
+     .bloque_imagen {/* work */
         width: 100%;
-
     }
-  /*   #texto{
-        width: 55%;
-
-    } */
    
 }
 
@@ -149,64 +120,13 @@
    /* index */
    .intro{
     width: 80%;
-    height: 800px;/* 900 */
-
-    }
-    .intro_titulo{
-        font-size: 55px;
-        line-height: 80px;
-        padding-top: 15px;
 
     }
     .intro_parrafo{
         width: 85%;
-        font-size: 20px;
-        line-height: 35px;
 
     }
-    .intro img{
-        padding-bottom: 20px; 
-
-    }
-    .servicios_titulo{
-        font-size: 20px;
-    }
-    .servicios_categorias{
-        font-size: 20px;
-        line-height: 55px;
-        
-    }
-    .conclusion{
-        height: 600px;
-
-    } 
-    .conclusion_titulo{
-        font-size: 20px;
-     
-    }
-    .conclusion_parrafo{
-        width: 80%;
-        font-size: 16px;
-        line-height: 30px;
-            
-    }
-    .conclusion_contacto{
-        height: 100px;
-        font-size: 20px; 
-    }
-   /*  .ejemplos{
-        width: 85%;
-
-    } */
-    /* work */
-      /* .bloque div:first-child{
-        width: 60%; 
-    
-     } 
-     .bloque div:last-child{
-        width: 40%; 
-
-     }  */
+  
      .bloque img{/*  */
         width: 90%;
 
@@ -225,6 +145,20 @@
 
 }
 @media(max-width:760px){
+    /*    index  */
+.conclusion{
+  height: 600px;
+
+} 
+    .conclusion_parrafo p{
+      margin-bottom: 20px;
+      font-size: 20px;
+
+    }
+    .conclusion_parrafo button{
+      margin-top: 20px;
+      
+    }
     /* work */
     .bloque{
         width: 85%;
@@ -276,25 +210,46 @@
       
     .intro{
         width: 80%;
-        height: 660px;
     
     }
-    .intro_titulo{
-        font-size: 52px;
-        line-height: 79px;
-    }
-    .intro_parrafo{
-        width: 89%;
-    
-    }
-    .conclusion_parrafo{
-        width: 85%;
-                
-    }
-   /*  .ejemplos{
-        width: 85%;
 
-    } */
+    .intro_parrafo{
+        width: 80%;
+    
+    }
+    .servicios_titulo{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 60px;
+
+  }
+  .servicios_categorias{
+    height:600px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+  }
+.conclusion{
+  width: 100%;
+  height: 1200px;
+  flex-direction: column;
+  
+} 
+  .conclusion_img{
+    width: 100%;
+    height:600px;
+    
+  }
+  .conclusion_parrafo{
+    width: 100%;
+    height:600px;
+                
+  }
+    .conclusion_parrafo p{
+      width: 70%;
+
+    }
     .footer_nav a{
         font-size: 14px;
             
@@ -335,51 +290,12 @@
 
 @media(max-width:606px){
     /* index */
-    .intro_titulo{
-        font-size: 45px;
-        line-height: 65px;
+    
+    .conclusion_parrafo p{
+      width: 70%;
 
     }
-    .intro_parrafo{
-        width: 90%;
-        font-size: 18px;
-        line-height: 30px;
-        
-    }
-    .intro img{
-        width: 85%;
-        
-    }
-    .conclusion_titulo{
-        font-size: 18px;
-         
-    }
-    .conclusion_parrafo{
-        font-size: 14px;
-        line-height: 25px;
-                
-    }
-    .conclusion_contacto{
-        font-size: 18px;
 
-    }
-    .servicios{
-        height: auto;
-
-    }
-    .servicios_titulo{
-        font-size: 18px;
-
-    }
-    .servicios_categorias{
-        font-size: 18px;
-        line-height: 50px;
-                
-    }
-   /*  .ejemplos{
-        width: 95%;
-
-    } */
     .footer_nav{
         width: 75%;
 
@@ -449,20 +365,6 @@
     #logo{
         top: 45%;
     }
-    .intro {
-        height: 620px;
-    }
-    .intro_titulo{
-        font-size: 42px;
-        line-height: 62px;
-
-    }
-    .intro img{
-        width: 90%;
-        height: auto;
-        padding-bottom: 18px; 
-        
-    }
     /* work */
     .bloque{
         border-bottom: none;
@@ -472,116 +374,105 @@
 }
 
 @media(max-width:480px){/* Samsung Galaxy Note 5 / 9 */
+    .portada{
+    animation: reveal_responsive 2s ease forwards;
 
-     /* COOKIES */
-     #cookieConsentBanner{
-        flex-direction: column;/*  */
+            
+  }
+@keyframes reveal_responsive {
+  from {
+    opacity: 0;
+    transform: translateY(-50px); /* empieza arriba */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* cae a su posición */
+  }
+}
 
-       }
-   .cookie-consent {
+/* COOKIES */
+#cookieConsentBanner{
+    flex-direction: column;
+
+}
+.cookie-consent {
     width: 100%;
     height: 120px;
     top: 75vh;
-     
-    }
-       .cookie-consent p {
+
+}
+    .cookie-consent p {
         width: 90%;
         font-size: 12px;
 
-        }
-  
-  #acceptCookies {
+    }
+#acceptCookies {
     width: 90%;
     font-size: 16px;
     margin-top: 10px;
     width: 100px;
     height: 30px;
     
-  }
-    /* index */
-    main{
-        width: 100%;
-        height: 75vh;
-        flex-direction: row;
+}
+/* index */
+main{
+    width: 100%;
+    height: 75vh;
+    flex-direction: row;
 
-    }
-    .portada{
-        width: 92%;
-        height: 95%;
-        flex-direction: column;
+}
+.portada{
+    width: 92%;
+    height: 95%;
+    flex-direction: column;
         
-    }
-    .foto_portada{
-        width: 100%;
-        height: 70%;
+}
+.foto_portada{
+    width: 100%;
+    height: 70%;
 
-    }
-    #logo{
-        width: 60%;
-        position: absolute;
-        top: 69.7%;
-        left: 40%;
+}
+#logo{
+    width: 60%;
+    position: absolute;
+    top: 69.7%;
+    left: 40%;
                     
-    }
-    .navbar_portada{
-        width: 100%;
-        height: 30%;
-        flex-direction: row;
-        align-items: flex-end;
+}
+.navbar_portada{
+     width: 100%;
+    height: 30%;
+    flex-direction: row;
+    align-items: flex-end;
         
-    }
+}
     .navbar_portada a{
-        width:33%;
-        transform: rotate(0deg);
-        font-size: 18px;
+     width:33%;
+     transform: rotate(0deg);
+     font-size: 18px;
 
     }
-    .intro{
-        height: 600px;
+.ejemplos{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 2vh;  
 
-    }
-    .intro_titulo{
-        padding-top: 20px;
-        font-size: 38px;
-        line-height: 58px;
+}
+.card{
+    width: 95%;
 
-    }
-    .intro img{
-        width: 95%;
-        
-    }
-    .servicios_categorias {
-        width: 100%;
-        height: 300px;
-
-    }
-    .conclusion_parrafo {
-        text-align: left;
-
-    }
-    .ejemplos{
-     /*    width: 90%; */
-        flex-direction: column;
-        justify-content: center;
-        align-items:center;
-        padding-bottom: 2vh;  
-
-    }
-    .card{
-        width: 95%;
-
-      }
+}
     .card img{
         width: 100%;
         height: auto;
         margin-bottom: 2vh;
 
     }
-    .footer_nav{
-        width: 90%;
+.footer_nav{
+    width: 90%;
 
-
-    }
+}
     .footer_nav a{
         width: 95%;
         font-size: 12px;
@@ -604,11 +495,11 @@
         font-size: 8px;
 
     }
-    /* about */
-    .about_contenido div{
-        width: 80%;
+/* about */
+.about_contenido div{
+    width: 80%;
 
-     }
+}
     .about_contenido h5 {
         width: 75%;
         font-size: 16px;
@@ -806,8 +697,7 @@
         font-size: 16px;
 
     }
-   
-} 
+}
              
 @media(max-width:443px){/* Samsung Galaxy Note 5 / 9 */
     /* index */
@@ -815,19 +705,19 @@
         width: 85%;
  
     }
-    .intro_titulo{
-        font-size: 36px;
-        line-height: 56px;
-
-    }
+  
     .intro_parrafo {
         width: 95%;
 
     }
-    .intro img{
-        width: 100%;
-     
-    }
+    .servicios_categorias{
+        height:500px;
+  
+    padding-left: 12%;
+    padding-bottom: 10%;
+
+  }
+    
     .footer_nav img {
         height: 60px;
     }
@@ -913,11 +803,7 @@
 
 
      }
-    .intro_titulo{
-        font-size: 34px;
-        line-height: 54px;
-
-    }
+ 
     /* work / páginas */
     .contenido h1{
         width: 85%;
@@ -972,44 +858,7 @@
         font-size: 14px;
 
     }
-    .intro {
-        height: 500px;
 
-    }
-    .intro_titulo {
-        font-size: 25px;
-        line-height: 34px;
-
-    }
-    .intro_parrafo {
-        width: 100%;
-        font-size: 14px;
-        line-height: 26px;
-
-    }
-    .conclusion_parrafo {
-        height: 800px;
-    
-    }
-    .servicios_titulo {
-        height: 60px;
-        font-size: 16px;
-
-    }
-    .servicios_categorias {
-        font-size: 14px;
-        line-height: 38px;
-
-    }
-    .conclusion_titulo {
-        height: 100px;
-        font-size: 16px;
-
-    }
-    .conclusion_contacto {
-        font-size: 16px;
-
-    }
     .footer_nav img {
         height: 50px;
 
@@ -1035,9 +884,6 @@
     }
     .field input {
         width: 65%;
-    }
-    #button{
-        font-size: 18px;
     }
     /* work */
     .bloque{
@@ -1105,21 +951,9 @@
         font-size: 16px; 
         
     }
-  /*   .portada_paginas_work h1{
-        font-size: 25px;
-
-    }
-    .portada_paginas_work h2{
-        font-size: 20px;
-
-    } */
     .imagen_portada img{
         width: 80%;
     }
-   /*  #parrafo{
-        height: 200px;
-        
-    } */
     #parrafo p{
         font-size: 12px;
         line-height: 30px;
@@ -1141,8 +975,6 @@
     }
           
 }
-
-  
    
              
   
