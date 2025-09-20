@@ -405,6 +405,13 @@ aside{
     padding-top: 25px;
     padding-bottom: 25px;
 
+    position: relative;
+    overflow: hidden;
+
+  }
+  .servicios_titulo h3{
+    display: inline-block;
+
   }
   .servicios_categorias{
     width: calc(100% - 100px);
