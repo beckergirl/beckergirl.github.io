@@ -21,6 +21,7 @@
     <!-- <link rel="icon" href="favicon.png" sizes="16x16 32x32" type="image/png"> --><!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico"><!-- Favicon -->
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" /><!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles_paginas.css" media="screen" /><!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles_responsive.css" media="screen" /><!-- CSS RESPONSIVE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,21 +31,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- <section class="banner">
+        <div class="marquee">
+        <p>El estudio permanecerá cerrado durante el mes de Agosto por vacaciones. Muchas gracias y disculpen las molestias.</p>
+        </div>
+    </section>  -->
+
     <main id="main-index"><!-- portada -->
         <section class="portada">
             <div class="foto_portada" >
-               <!--  <img id="foto_fondo" src="img/portadas/naveRosa_2.jpg" alt="Portada" > -->
                 <img id="foto_fondo" alt="Portada" >
                 <img id="logo" src="logos/logo_creativeStudio_azul.png" alt="creativeStudio" >
     
             </div><!-- cierra foto_portada -->
+
             <nav class="navbar_portada">
                 <a  href="portfolio.html">{ WORK }</a>
                 <a  href="about.html">{ ABOUT }</a>
                 <a  href="contact.html">{ CONTACT }</a>
             </nav>
         </section><!-- cierra clase portada -->
-
          <!-- COOKIES -->
         <div id="cookieConsentBanner" class="cookie-consent">
            <p>Utilizamos cookies para mejorar tu experiencia en nuestro sitio. Al continuar navegando, aceptas el uso de cookies.</p>
@@ -52,13 +59,56 @@
         </div>
 
     </main><!-- cierre de portada -->
-    <section class="banner">
-        <div class="marquee">
-        <p>Estamos actualizando la página web. Disculpad las molestias.</p>
-        </div>
-    </section>
-    <aside>
 
+    <aside><!-- cuerpo -->
+
+       <section class="intro">
+
+            <div class="intro_titulo">
+                <h1>DISEÑO &<h1>
+                <h1>DESARROLLO</h1>
+                <h1>WEB</h1>
+            </div>
+            <div class="intro_parrafo">
+                <h4>La unión entre lo gráfico y lo digital para dar vida a tu marca.</h4>
+            </div>
+
+       </section> <!-- cierra cuerpo -->
+
+       <section class="servicios"><!-- SERVICIOS -->
+
+           <div class="servicios_titulo">
+            <h3 class="marquee">NUESTROS SERVICIOS</h3>
+           </div>
+           <div class="servicios_categorias">
+               <h2>DISEÑO WEB</h2>
+               <h2>DISEÑO GRÁFICO</h2>
+               <h2>MAQUETACIÓN WEB</h2>
+               <h2>E-SHOPS [ shopify ] </h2>
+               <h2>MAQUETACIÓN WEB CMS
+               <h2>[ wordpress ] </h2>
+           </div>
+
+       </section><!-- cierra servicios -->
+
+       <div class="servicios_titulo">
+            <h3 class="marquee">PRESENCIA ONLINE</h3>
+        </div>
+
+       <section class="conclusion"><!-- final -->
+        <div class="conclusion_img"></div>
+        <div class="conclusion_parrafo">
+            <p>La presencia online es imprescindible: hoy todos buscan información en internet. Tener una web hará que te encuentren, te dará visibilidad, credibilidad y confianza.</p>
+            <p>Disponible 24/7, tu página promocionará tus productos o servicios y ampliará tu alcance.</p>
+            <p>¿Quieres dar el paso con un diseño hecho a tu medida?</p>
+            <button>ESCRÍBENOS</button>
+        </div>
+      
+       </section><!-- cierra final -->
+       <div class="servicios_titulo">
+            <h3 class="marquee">ALGUNOS DE NUESTROS PROYECTOS</h3>
+        </div>
+       
        <section class="ejemplos"><!-- postales -->
 
           <a class="card" href="https://deassin.com/" target="_blank" rel=”noopener noreferrer><img src="img/cards/Deassin web.jpg" alt="ESHOP DEASSÍN"></a>
@@ -67,29 +117,28 @@
           <a class="card" href="https://almavivalab.com/" target="_blank" rel=”noopener noreferrer><img src="img/cards/Alma viva lab web.jpg" alt="ALMA VIVA LAB | SPORTS & CULTURE"></a>
           
        </section>
-       
     </aside><!--  cierra cuerpo -->
 
     <footer>
         <nav class="footer_nav">
-            <img class= "logo"src="logos/logo_creativeStudio_beige.png">
+            <a href="index.html"><img class= "logo"src="logos/logo_creativeStudio_beige.png"></a>
             <a href="portfolio.html">{ WORK }</a>
             <a href="about.html">{ ABOUT }</a>
             <a href="contact.html">{ CONTACT }</a>
         </nav>
         <nav class="footer_redes">
-            <a href="https://www.behance.net/irenebecker" target="_blank" rel=”noopener noreferrer”>behance</a>
-            <a href="https://www.instagram.com/irenebeckerstudio/" target="_blank" rel=”noopener noreferrer”>instagram</a>
-            <a href="https://www.pinterest.es/superbeckergirl/" target="_blank" rel=”noopener noreferrer”>pinterest</a>
+            <a href="https://www.behance.net/irenebecker" target="_blank" rel=”noopener noreferrer>behance</a>
+            <a href="https://www.instagram.com/irenebeckerstudio/" target="_blank" rel=”noopener noreferrer>instagram</a>
+            <a href="https://www.pinterest.es/superbeckergirl/" target="_blank" rel=”noopener noreferrer>pinterest</a>
             <a href="legal.html">legal</a>
         </nav>
         <p>© 2023 All Rigths Reserved. Designed by Irene Becker Studio. Madrid, Spain.</p>
     </footer>
 
     <script>
-/* imágenes portada */
+        /* imágenes portada */
         document.addEventListener("DOMContentLoaded", function() {
-             let imagenes = ["img/portadas/portada_deassin.png","img/portadas/portada_amayagarcia.png","img/portadas/velvet_inside.png","img/portadas/presentacion_laheredera.png","img/portadas/portada_becker.png","img/alvaro_gomis/WEB_PORTADA_alvaroGomis.png","img/portadas/ojo_vogue_ireneBecker.jpg"];
+             let imagenes = ["img/portadas/portada_deassin.png","img/portadas/portada_amayagarcia.png","img/portadas/velvet_inside.png","img/portadas/portada_becker.png","img/alvaro_gomis/WEB_PORTADA_alvaroGomis.png","img/portadas/presentacion_laheredera.png","img/portadas/ojo_vogue_ireneBecker.jpg"];
              let tiempoIntervalo = 5000; 
 
               let indiceImagenActual = 0;
@@ -104,25 +153,21 @@
          setInterval(cambiarImagen, tiempoIntervalo);
         
         }); 
+        /* cookies */
+        document.addEventListener("DOMContentLoaded", function () {
+            let banner = document.getElementById("cookieConsentBanner");
+            let acceptButton = document.getElementById("acceptCookies");
 
-/* cookies */
+        // Comprobar si ya aceptó
+        if (localStorage.getItem("cookiesAccepted") === "true") {
+         banner.style.display = "none";
+        }
 
- document.addEventListener("DOMContentLoaded", function () {
-    let banner = document.getElementById("cookieConsentBanner");
-    let acceptButton = document.getElementById("acceptCookies");
-
-    // Comprobar si ya aceptó
-    if (localStorage.getItem("cookiesAccepted") === "true") {
-        banner.style.display = "none";
-    }
-
-    acceptButton.addEventListener("click", function () {
-        banner.style.display = "none";
-        localStorage.setItem("cookiesAccepted", "true"); // Guardar estado
-    });
-});
-
-
+        acceptButton.addEventListener("click", function () {
+            banner.style.display = "none";
+            localStorage.setItem("cookiesAccepted", "true"); // Guardar estado
+         });
+        });
     </script>
 
 </body>
