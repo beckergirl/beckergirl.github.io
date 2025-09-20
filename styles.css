@@ -407,7 +407,7 @@ aside{
 
   }
   .servicios_categorias{
-    width: 100%;
+    width: calc(100% - 100px);
     height:800px;
     background: url("img/jens-riesenberg-LzxC02FheMs-unsplash.jpg") center/cover no-repeat;
     display: flex;
