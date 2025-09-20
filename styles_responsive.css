@@ -390,7 +390,12 @@
     transform: translateY(0); /* cae a su posición */
   }
 }
+.servicios_categorias{
+    width: calc(100% - 25px);
+    padding-left: 25px;
+    padding-bottom: 25px;
 
+  }
 /* COOKIES */
 #cookieConsentBanner{
     flex-direction: column;
