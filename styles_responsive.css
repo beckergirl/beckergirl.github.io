@@ -234,7 +234,7 @@
   }
   .conclusion_parrafo{
     width: 100%;
-    height:650px;
+    height:600px;
                 
   }
      .conclusion_parrafo p{
@@ -447,6 +447,23 @@ main{
      transform: rotate(0deg);
      font-size: 18px;
 
+    }
+    .conclusion{
+     height: 1300px;
+  
+   } 
+  .conclusion_parrafo{
+    width: 100%;
+    height:700px;
+                
+  }
+     .conclusion_parrafo p{
+      width: 75%;
+
+    }
+    .conclusion_parrafo button{
+      width: 75%;
+    
     }
 .ejemplos{
     flex-direction: column;
@@ -968,6 +985,13 @@ main{
     }
           
 }
+
+  
+   
+             
+  
+   
+             
    
              
   
