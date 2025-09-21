@@ -390,12 +390,11 @@
   }
 }
 .servicios_categorias{
-    width: 100%;
+    width: calc(100% - 25px);
     padding-left: 25px;
     padding-bottom: 25px;
 
   }
-
 /* COOKIES */
 .cookie-consent {
     width: 100%;
