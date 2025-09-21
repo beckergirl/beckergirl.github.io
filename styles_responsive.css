@@ -660,6 +660,10 @@ main{
         width: 70%;
         
     }
+     #mensaje textarea{
+            width: 70%;
+
+    }
     /* work / página Rocio Guerrero */
     #frase_rocio h1{
         width: 90%;
@@ -713,10 +717,6 @@ main{
 }
              
 @media(max-width:443px){/* Samsung Galaxy Note 5 / 9 */
-     .field{
-          font-size: 16px;
-
-    }
     /* index */
     .intro{
         width: 85%;
@@ -767,6 +767,14 @@ main{
     .contenido_ewp{
         width: 95%;
       
+    }
+    .field{
+          font-size: 16px;
+
+    }
+    #mensaje textarea{
+            font-size: 16px;
+
     }
 }
 @media(max-width:484px){
@@ -898,6 +906,10 @@ main{
     }
     .field input {
         width: 65%;
+    }
+      #mensaje textarea{
+     width: 65%;
+
     }
     /* work */
     .bloque{
