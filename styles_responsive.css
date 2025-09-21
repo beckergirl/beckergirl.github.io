@@ -713,6 +713,10 @@ main{
 }
              
 @media(max-width:443px){/* Samsung Galaxy Note 5 / 9 */
+     .field{
+          font-size: 16px;
+
+    }
     /* index */
     .intro{
         width: 85%;
