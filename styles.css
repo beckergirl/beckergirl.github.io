@@ -144,6 +144,7 @@ a:hover{
   justify-content: center;
   align-items:center;
   background-color:var(--color-secundario);
+  border-radius: 10px;
 
  }
   .cookie-consent {
@@ -174,17 +175,17 @@ a:hover{
   }
   .cookie-consent p {
     width: 90%;
-      color:var(--color-primario);
-      font-family: var(--fuente-principal);
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 300;
-      text-align:left;
-      padding: 50px;
+    color:var(--color-primario);
+    font-family: var(--fuente-principal);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    text-align:left;
+    padding: 50px;
 
-    }
+  }
     #acceptCookies {
-       width: auto;
+      width: auto;
       height: auto;
       background-color:var(--color-secundario);
       display: flex; 
@@ -193,17 +194,18 @@ a:hover{
       text-align: center;
       font-family: var(--fuente-secundaria);
       font-style:bold;
-      font-weight: 900;
+      font-weight: 100;
       color:  var(--color-primario);
       border: none;
       text-decoration: none;
       cursor: url(img/cursores/cursor_fluor.png) 16 16, auto;
       font-size: 20px;
+      padding: 15px;
 
     }
-      #acceptCookies :hover{
-        font-size: 22px;
-        color:var(--color-primario);
+      #acceptCookies:hover{
+        font-weight: bolder;
+        color:var(--color-acento);
 
       }
  /* ----------BANNER--------- */
