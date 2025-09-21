@@ -348,11 +348,12 @@ main{
       font-weight: 300;
 
     }
-      .navbar_portada a:hover{
-        font-weight: 500;
-        cursor: url(img/cursores/cursor_rosa.png) 16 16, auto;
-                        
-      }
+       .navbar a:hover{
+      font-weight: bolder;
+      color: var(--color-acento)!important;
+      cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
+                
+    } 
 /* CUERPO */
 aside{
   width: 100%;
