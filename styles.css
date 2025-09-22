@@ -309,7 +309,7 @@ main{
     height: 100%;
     object-fit: cover;
     border-radius: 6px;
-    filter:contrast(0.8);
+   /*  filter:contrast(0.8); */
 
   }
   @keyframes animacion{/* logos (index & about) */
