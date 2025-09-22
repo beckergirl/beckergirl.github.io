@@ -241,10 +241,6 @@
       width: 70%;
 
     }
-    .conclusion_parrafo button{
-      width: 100%;
-    
-    }
     .footer_nav a{
         font-size: 14px;
             
@@ -459,9 +455,6 @@ main{
       width: 75%;
 
     }
-    .conclusion_parrafo button{
-      width: 75%;
-    
     }
 .ejemplos{
     flex-direction: column;
