@@ -52,95 +52,78 @@
                   <h3>Madrid</h3> 
             
                 </div> 
-                <!-- formulario --> <!-- FUNCIONA PERFECTAMENTE  -->
-                <div class="formulario">
+                <div class="formulario"> <!-- formulario --> <!-- FUNCIONA PERFECTAMENTE  -->
 
-                <form
-    id="form"
-    action="https://formspree.io/f/mzzanbgl"
-    method="POST"
-  >
-    <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
-    <input type="hidden" name="form_name" value="Contacto web">
-
-    <div class="field">
-      <label for="from_name">NOMBRE</label>
-      <input type="text" name="from_name" id="from_name" placeholder=" * Introduce tu nombre" required>
-    </div>
-
-    <div class="field">
-      <label for="email_id">EMAIL</label>
-      <input type="email" name="email" id="email_id" placeholder=" * Introduce tu email" required>
-    </div>
-
-    <div class="field">
-      <label for="asunto">ASUNTO</label>
-      <input type="text" name="asunto" id="asunto" placeholder=" * Introduce el asunto">
-    </div>
-
-    <div class="field" id="mensaje">
-      <label class="mensaje_label" for="message">MENSAJE</label>
-      <textarea class="mensaje_input" name="message" id="message" placeholder=" * Escribe tu mensaje" rows="5" required></textarea>
-    </div>
-
-    <input type="submit" id="button" value="ENVIAR">
-    <!-- Contenedor para mensajes -->
-    <p id="form-status" style="display:none;margin-top:8px;"></p>
-  </form>
-    </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function(){
-  const form = document.getElementById("form");
-  const statusEl = document.getElementById("form-status");
-  const submitBtn = document.getElementById("button");
-
-  form.addEventListener("submit", async function(e){
-    e.preventDefault();
-
-    // UX: desactivar botón mientras se envía
-    submitBtn.disabled = true;
-
-    try {
-      const response = await fetch(form.action, {
-        method: form.method,
-        body: new FormData(form),
-        headers: { "Accept": "application/json" }
-      });
-
-      if (response.ok) {
-        form.reset();
-        showStatus("¡Gracias! Tu mensaje ha sido enviado. 📬", true);
-      } else {
-        const data = await response.json().catch(()=>null);
-        const err = data && data.errors ? data.errors.map(e=>e.message).join(", ") : "Ha ocurrido un error inesperado.";
-        showStatus("No se pudo enviar el mensaje: " + err, false);
-      }
-    } catch (err) {
-      showStatus("Error de conexión. Por favor, inténtalo de nuevo.", false);
-    } finally {
-      submitBtn.disabled = false;
-    }
-  });
-
-  function showStatus(msg, ok){
-    statusEl.textContent = msg;
-    statusEl.style.display = "block";
-    statusEl.style.color = ok ? "green" : "red";
-  }
-});
-</script>
-
-            <section><!-- formulario -->
-
+                <form id="form" action="https://formspree.io/f/mzzanbgl" method="POST">
+                    <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+                    <input type="hidden" name="form_name" value="Contacto web">
+                    
+                    <div class="field">
+                        <label for="from_name">NOMBRE</label>
+                        <input type="text" name="from_name" id="from_name" placeholder=" * Introduce tu nombre" required>
+                    </div>
+                    
+                    <div class="field">
+                        <label for="email_id">EMAIL</label>
+                        <input type="email" name="email" id="email_id" placeholder=" * Introduce tu email" required>
+                    </div>
+                    
+                    <div class="field">
+                        <label for="asunto">ASUNTO</label>
+                        <input type="text" name="asunto" id="asunto" placeholder=" * Introduce el asunto">
+                    </div>
+                    
+                    <div class="field" id="mensaje">
+                        <label class="mensaje_label" for="message">MENSAJE</label>
+                        <textarea class="mensaje_input" name="message" id="message" placeholder=" * Escribe tu mensaje" rows="5" required></textarea>
+                    </div>
+                    
+                    <input type="submit" id="button" value="ENVIAR">
+                    <!-- Contenedor para mensajes -->
+                        <p id="form-status" style="display:none;margin-top:8px;"></p>
+                  </form>
+                  </div>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function(){
+                        const form = document.getElementById("form");
+                        const statusEl = document.getElementById("form-status");
+                        const submitBtn = document.getElementById("button");
+                            form.addEventListener("submit", async function(e){
+                                e.preventDefault();// UX: desactivar botón mientras se envía
+                                submitBtn.disabled = true;
+                                try {
+                                    const response = await fetch(form.action, {
+                                        method: form.method,
+                                        body: new FormData(form),
+                                        headers: { "Accept": "application/json" }
+                                    });
+                                    if (response.ok) {
+                                        form.reset();
+                                        showStatus("¡Gracias! Tu mensaje ha sido enviado. 📬", true);
+                                    } else {
+                                        const data = await response.json().catch(()=>null);
+                                        const err = data && data.errors ? data.errors.map(e=>e.message).join(", ") : "Ha ocurrido un error inesperado.";
+                                        showStatus("No se pudo enviar el mensaje: " + err, false);
+                                    } catch (err) {
+                                        showStatus("Error de conexión. Por favor, inténtalo de nuevo.", false);
+                                    } finally {
+                                        submitBtn.disabled = false;
+                                    }
+                                });
+                        function showStatus(msg, ok){
+                            statusEl.textContent = msg;
+                            statusEl.style.display = "block";
+                            statusEl.style.color = ok ? "green" : "red";
+                        }
+                    });
+                </script>
             </section><!-- cierra formulario -->
-
+            
             <div class="rodamiento">
                 <img class="imagen-giratoria" src="favicon.png" alt="imagen-giratoria">
             </div>
         </main><!-- cierre  -->
-
-        <footer>
+        <footer><!-- footer -->
             <nav class="footer_nav">
                 <a id="logo_footer"href="index.html"><img src="logos/logo_creativeStudio_beige.png"></a>
                 <a href="portfolio.html">{ WORK }</a>
@@ -148,12 +131,12 @@ document.addEventListener("DOMContentLoaded", function(){
                 <a href="#">{ CONTACT }</a>
             </nav>
             <nav class="footer_redes">
-                <a href="https://www.behance.net/irenebecker" target="_blank" rel=”noopener noreferrer>behance</a>
-                <a href="https://www.instagram.com/irenebeckerstudio/" target="_blank" rel=”noopener noreferrer>instagram</a>
-                <a href="https://www.pinterest.es/superbeckergirl/" target="_blank" rel=”noopener noreferrer>pinterest</a>
+                <a href="https://www.behance.net/irenebecker" target="_blank" rel=”noopener noreferrer">behance</a>
+                <a href="https://www.instagram.com/irenebeckerstudio/" target="_blank" rel=”noopener noreferrer">instagram</a>
+                <a href="https://www.pinterest.es/superbeckergirl/" target="_blank" rel=”noopener noreferrer">pinterest</a>
                 <a href="legal.html">legal</a>
             </nav>
-            <p>© 2023 All Rigths Reserved. Designed by Irene Becker Studio. Madrid, Spain.</p>
+            <p>© 2023 All Rights Reserved. Designed by Irene Becker Studio. Madrid, Spain.</p>
         </footer>
 
 </body>
