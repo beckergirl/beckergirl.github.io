@@ -642,7 +642,6 @@ footer{
   
   }
     .navbar a:hover{
-      font-weight: 400;
       color: var(--color-acento);
       cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
                 
