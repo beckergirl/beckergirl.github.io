@@ -975,261 +975,145 @@ footer{
 
       }
 /*  ---------------IMÁGENES PORTFOLIO | HOVER --------------- */
-                  #la_heredera:hover::before {
-                    content: "";/* www.laheredera.es */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/la_heredera_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
+  #almavivalab:hover::before, #la_heredera:hover::before,#alvaro_gomis:hover::before,#amaya_garcia:hover::before,#unmap:hover::before,#deassin:hover::before,
+  #guerrero:hover::before,#btehr:hover::before,#ewp:hover::before,#imbd:hover::before, #velvet:hover::before, #hola:hover::before,#primavera:hover::before,
+  #kaiku:hover::before,#boheart:hover::before, #pintura:hover::before, #becker:hover::before  {
+  content: "";
+  font-family: var(--fuente-principal);
+  font-weight: 300;
+  font-size: 15px;
+  font-style: normal;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+
+  } 
+  #almavivalab:hover::before {
+    background-image: url(img/portadas/PORTFOLIO_AVL\ portada\ 2.jpg);
+
+  } 
+  #la_heredera:hover::before {
+    background-image: url(img/portfolio/la_heredera_hover.png);
               
-                  } 
-                  #alvaro_gomis:hover::before {
-                    content: "";/* www.alvarogomis.com */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/alvaro_gomis_web_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
-              
-                  } 
-                  #amaya_garcia:hover::before {
-                    content: "";/* www.amayagarcia.com */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/amaya_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
-              
-                  } 
-    
-                  #unmap:hover::before {
-                    content: "";/* www.unmap.es */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/unmap_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
-              
-                  } 
-                  
-                  #deassin:hover::before {
-                    content: "";/* www.deassin.es */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/deassin_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
-              
-                  } 
-                  #guerrero:hover::before {
-                    content: "";/* www.rocioguerrero.art */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/guerrero_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
+  } 
+  #alvaro_gomis:hover::before {
+    background-image: url(img/portfolio/alvaro_gomis_web_hover.png);
+          
+  } 
+  #amaya_garcia:hover::before {
+    background-image: url(img/portfolio/amaya_hover.png);
 
-                  } 
-                  #btehr:hover::before {
-                    content: ""; /* www.btehr.com */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal; 
-                    background-image: url(img/portfolio/btehr_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
+  } 
+  #unmap:hover::before {
+    background-image: url(img/portfolio/unmap_hover.png);
+   
+  } 
+  #deassin:hover::before {
+    background-image: url(img/portfolio/deassin_hover.png);
 
-                  } 
-                  #ewp:hover::before {
-                    content: "";/* app */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/ewp_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
+  } 
+  #guerrero:hover::before {
+    background-image: url(img/portfolio/guerrero_hover.png);
 
-                  } 
-                  #imbd:hover::before {
-                    content: "";/* behance */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/imbd_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
+  } 
+  #btehr:hover::before {
+    background-image: url(img/portfolio/btehr_hover.png);
+  
+  } 
+  #ewp:hover::before {
+    background-image: url(img/portfolio/ewp_hover.png);
+  
+  } 
+  #imbd:hover::before {
+    background-image: url(img/portfolio/imbd_hover.png);
 
-                  } 
-                  #velvet:hover::before {
-                    content: "";/* behance */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/velvet_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
+  } 
+  #velvet:hover::before {
+    background-image: url(img/portfolio/velvet_hover.png);
+  
+  } 
+  #hola:hover::before {
+    background-image: url(img/portfolio/tarjeta_hola!_hover.png);
+      
+  } 
+  #primavera:hover::before {
+    background-image: url(img/portfolio/primavera_hover.png);
+          
+  } 
+  #kaiku:hover::before {
+    background-image: url(img/portfolio/kaiku_hover.png);
+             
+  }               
+  #boheart:hover::before {
+    background-image: url(img/portfolio/boheart_hover.png);
+           
+  } 
+  #pintura:hover::before {
+    background-image: url(img/portfolio/pintura_hover.png);
+  
+  }
+  #becker:hover::before {
+    background-image: url(img/portfolio/rrss_becker&co.png);
 
-                  } 
-                  #hola:hover::before {
-                    content: "";/* behance */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/tarjeta_hola!_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
+  }
+    #texto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-                  } 
-                  #primavera:hover::before {
-                    content: "";/* behance */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/primavera_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
-
-                  } 
-                  #kaiku:hover::before {
-                    content: "";/* behance */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/kaiku_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:101%;
-                    background-position: center;
-
-                  }
-                  #boheart:hover::before {
-                    content: "";/* behance */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/boheart_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:100%;
-                    background-position: center;
-
-                  } 
-                  #pintura:hover::before {
-                    content: "";/* behance */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    /* font-size: 15px; */
-                    font-style: normal;
-                    background-image: url(img/portfolio/pintura_hover.png);
-                    background-repeat: no-repeat;
-                    background-size:100%;
-                    background-position: center;
-
-                  }
-                  #becker:hover::before {
-                    content: "";/* behance */
-                    font-family: "Noto Serif",serif;
-                    font-weight: 300;
-                    font-size: 15px;
-                    font-style: normal;
-                    background-image: url(img/portfolio/rrss_becker&co.png);
-                    background-repeat: no-repeat;
-                    background-size:100%;
-                    background-position: center;
-
-                  }
-                #texto{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-
-                }
-                
-                #texto h1{
-                    text-align: center;
-                    font-style: normal;
-                    font-family: "Noto Serif",serif;
-                    font-style: normal;
-                    font-weight: 300;
-                    line-height: normal;
-                    text-transform: uppercase;
-                    font-size: 20px;
-                    
-
-                }
-                     #texto h1:hover{
-                        text-decoration:underline;
-                        cursor: url(img/cursores/cursor_amarillo.png)16 16, auto;
+    }
+      #texto h1{
+        text-align: center;
+        font-style: normal;
+        font-family:var(--fuente-principal);
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+        font-size: 20px;
+      
+      }
+        #texto h1:hover{
+          text-decoration:underline;
+          cursor: url(img/cursores/cursor_amarillo.png)16 16, auto;
         
-                    }
+        }
+      #texto h2{
+        padding-top: 15px;
+        text-align: center;
+        font-family: var(--fuente-principal);
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        font-size: 16px;
+        width: 80%;
 
-                #texto h2{
-                    padding-top: 15px;
-                    text-align: center;
-                    font-family: "Noto Serif",serif;
-                    font-style: normal;
-                    font-weight: 300;
-                    line-height: normal;
-                    font-size: 16px;
-                    width: 80%;
-
-                }
-                #texto p{
-                    text-align: center;
-                    font-family: "Noto Serif",serif;
-                    font-style: normal;
-                    font-weight: 300;
-                    line-height: normal;
-                    font-size: 14px;
-                    padding-top: 15px;
-                    padding-bottom: 3px ;
+      }
+      #texto p{
+        text-align: center;
+        font-family: var(--fuente-principal);
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        font-size: 14px;
+        padding-top: 15px;
+        padding-bottom: 3px ;
                
-                }
-                      .enlace{
-                        text-align: center;
-                        font-size: 12px;
-                        font-family: "Noto Serif",serif;
-                        font-style: normal;
-                        font-weight: 400;
-
-                      }
-                           .enlace:hover{
-                            cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
-                            font-weight: 500;
-    
-                          }
+      }
+    .enlace{
+      text-align: center;          
+      font-size: 12px;           
+      font-family:var(--fuente-principal);
+      font-style: normal;      
+      font-weight: 400;
+              
+    }
+      .enlace:hover{
+        cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
+        font-weight: 500;
+      
+      }
 /* ----------------------------- ABOUT.HTML | SOBRE EL ESTUDIO --------------------------------------------- */
 .about_contenido{
     width: 100%;
