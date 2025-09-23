@@ -39,7 +39,7 @@
   --h2-line_height: clamp(2rem, 6.5vw, 6rem);
 
   --h3-size:clamp(1.5rem, 4vw, 8rem);
-  --h3-line_height:clamp(1.5rem, 4.5vw, 6rem);
+  --h3-line_height:clamp(1.5rem, 4.5vw, 6rem); 
 
   --h4-size: clamp(1.5rem, 3vw, 4rem);
   --h4-line_height:clamp(2rem, 3vw, 4.5rem);
@@ -349,9 +349,9 @@ main{
 
     }
        .navbar a:hover{
+        font-weight: bolder!important;
         color: var(--color-acento)!important;
         cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
-        
        } 
 /* CUERPO */
 aside{
@@ -404,7 +404,6 @@ aside{
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-
     position: relative;
     overflow: hidden;
 
@@ -415,9 +414,8 @@ aside{
   }
   .servicios_categorias{
     width: calc(100% - 100px);
-    width: 100%;
     height:800px;
-    background: url("img/VELVET_INDICE.png") left/cover no-repeat;
+    background: url("img/VELVET_INDICE.png") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -462,7 +460,7 @@ aside{
 
     }
     .conclusion_parrafo button{
-      width: 250px;
+      width: 100%;
       margin-top: 25px;
       align-items: center;
       text-align: center;
@@ -759,6 +757,7 @@ footer{
               font-family: var(--fuente-secundaria);
               font-size: 15px;
             
+
             }
             #button{
               width: 250px;
@@ -1291,3 +1290,5 @@ footer{
     text-decoration: none;
     
   }
+    
+    
