@@ -351,9 +351,9 @@ main{
 
     }
        .navbar a:hover{
-        font-weight: bolder!important;
         color: var(--color-acento)!important;
         cursor: url(img/cursores/cursor_amarillo.png) 16 16, auto;
+        
        } 
 /* CUERPO */
 aside{
@@ -761,7 +761,6 @@ footer{
               font-family: var(--fuente-secundaria);
               font-size: 15px;
             
-
             }
             #button{
               width: 250px;
@@ -983,7 +982,7 @@ footer{
   font-size: 15px;
   font-style: normal;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:100%;
   background-position: center;
 
   } 
