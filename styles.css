@@ -756,7 +756,6 @@ footer{
               color:rgba(9, 29, 208, 0.6);
               font-family: var(--fuente-secundaria);
               font-size: 15px;
-            
 
             }
             #button{
@@ -1166,6 +1165,7 @@ footer{
 
     } 
     .parrafo p{
+      font-size: 20px;
       text-align: justify;
       padding-bottom: 18px;
                 
