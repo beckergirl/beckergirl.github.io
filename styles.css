@@ -44,8 +44,8 @@
   --h4-size: clamp(1.5rem, 3vw, 4rem);
   --h4-line_height:clamp(2rem, 3vw, 4.5rem);
 
-  /* --p-size: clamp(18px, 22px, 25px);
-  --p-line_height:clamp(28px, 32px, 35px); */
+  --p-size: clamp(18px, 22px, 25px);
+  --p-line_height:clamp(28px, 32px, 35px);
 
   /* Espaciado */
   --spacing-sm: 0.5rem;
