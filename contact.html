@@ -1,18 +1,13 @@
-<!-- © 2023 All rights reserved by Irene Becker Studio
-    | Tipografía Aesthetic Regurar: https://nirmanavisual.com/product/aesthetic 
-    Licencia Standar a nombre de Irene Herrero Becker-->
-    <!DOCTYPE html>
-    <html lang="es">
+<!DOCTYPE html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, user-scalable=no" /><!-- viewport  para el responsive-->
         <title>IRENE BECKER CREATIVE STUDIO | CONTACT</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico"><!-- Favicon -->
         <link rel="stylesheet" type="text/css" href="styles.css" media="screen" /><!-- CSS -->
         <link rel="stylesheet" type="text/css" href="styles_responsive.css" media="screen" /><!-- CSS RESPONSIVE -->
-        <link rel="stylesheet" type="js" href="formulario.js" media="screen" /><!-- JS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><!-- Tipografías -->
@@ -84,39 +79,44 @@
                   </form>
                   </div>
                 <script>
-                    document.addEventListener("DOMContentLoaded", function(){
-                        const form = document.getElementById("form");
-                        const statusEl = document.getElementById("form-status");
-                        const submitBtn = document.getElementById("button");
-                            form.addEventListener("submit", async function(e){
-                                e.preventDefault();// UX: desactivar botón mientras se envía
-                                submitBtn.disabled = true;
-                                try {
-                                    const response = await fetch(form.action, {
-                                        method: form.method,
-                                        body: new FormData(form),
-                                        headers: { "Accept": "application/json" }
-                                    });
-                                    if (response.ok) {
-                                        form.reset();
-                                        showStatus("¡Gracias! Tu mensaje ha sido enviado. 📬", true);
-                                    } else {
-                                        const data = await response.json().catch(()=>null);
-                                        const err = data && data.errors ? data.errors.map(e=>e.message).join(", ") : "Ha ocurrido un error inesperado.";
-                                        showStatus("No se pudo enviar el mensaje: " + err, false);
-                                    } catch (err) {
-                                        showStatus("Error de conexión. Por favor, inténtalo de nuevo.", false);
-                                    } finally {
-                                        submitBtn.disabled = false;
-                                    }
-                                });
-                        function showStatus(msg, ok){
-                            statusEl.textContent = msg;
-                            statusEl.style.display = "block";
-                            statusEl.style.color = ok ? "green" : "red";
-                        }
-                    });
-                </script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.getElementById('form');
+      const statusEl = document.getElementById('form-status');
+      const submitBtn = document.getElementById('button');
+
+      function showStatus(msg, ok){
+        statusEl.textContent = msg;
+        statusEl.style.display = 'block';
+        statusEl.style.color = ok ? 'green' : 'red';
+      }
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        submitBtn.disabled = true;
+        try {
+          const response = await fetch(form.action, {
+            method: form.method,
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+          });
+          if (response.ok) {
+            form.reset();
+            showStatus('¡Gracias! Tu mensaje ha sido enviado. 📬', true);
+          } else {
+            const data = await response.json().catch(() => null);
+            const err = data && data.errors
+              ? data.errors.map(e => e.message).join(', ')
+              : 'Ha ocurrido un error inesperado.';
+            showStatus('No se pudo enviar el mensaje: ' + err, false);
+          }
+        } catch (err) {
+          showStatus('Error de conexión. Por favor, inténtalo de nuevo.', false);
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+    });
+  </script>
             </section><!-- cierra formulario -->
             
             <div class="rodamiento">
@@ -125,15 +125,15 @@
         </main><!-- cierre  -->
         <footer><!-- footer -->
             <nav class="footer_nav">
-                <a id="logo_footer"href="index.html"><img src="logos/logo_creativeStudio_beige.png"></a>
+                <a id="logo_footer" href="index.html"><img src="logos/logo_creativeStudio_beige.png"></a>
                 <a href="portfolio.html">{ WORK }</a>
                 <a href="about.html">{ ABOUT }</a>
                 <a href="#">{ CONTACT }</a>
             </nav>
             <nav class="footer_redes">
-                <a href="https://www.behance.net/irenebecker" target="_blank" rel=”noopener noreferrer">behance</a>
-                <a href="https://www.instagram.com/irenebeckerstudio/" target="_blank" rel=”noopener noreferrer">instagram</a>
-                <a href="https://www.pinterest.es/superbeckergirl/" target="_blank" rel=”noopener noreferrer">pinterest</a>
+                <a href="https://www.behance.net/irenebecker" target="_blank" rel="noopener noreferrer">behance</a>
+                <a href="https://www.instagram.com/irenebeckerstudio/" target="_blank" rel="noopener noreferrer">instagram</a>
+                <a href="https://www.pinterest.es/superbeckergirl/" target="_blank" rel="noopener noreferrer"">pinterest</a>
                 <a href="legal.html">legal</a>
             </nav>
             <p>© 2023 All Rights Reserved. Designed by Irene Becker Studio. Madrid, Spain.</p>
