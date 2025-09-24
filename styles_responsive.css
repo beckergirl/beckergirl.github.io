@@ -237,7 +237,7 @@
 
         }
         .conclusion_parrafo button{
-             width: 100%;
+             width: 70vw;
     
         }
         .conclusion_contacto a{
@@ -450,8 +450,8 @@
 
         }
         .conclusion_parrafo button{
-            width: 100%;
-        
+             width: 75vw;
+    
         }
     .ejemplos{
         flex-direction: column;
