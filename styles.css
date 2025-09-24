@@ -751,10 +751,9 @@ footer{
               font-family: var(--fuente-secundaria);
               font-size: 15px;
             
-
             }
             #button{
-              width: 250px;
+              width: 300px;
               text-decoration: none;
               background-color: var(--color-primario);
               color: var(--color-fondo);
@@ -1149,7 +1148,7 @@ footer{
       text-decoration: none;
       margin-bottom: 8%;
       margin-top: 8%;
-     padding:15px;
+      padding:15px;
 
     } 
       .about_contenido button:hover{
@@ -1211,7 +1210,7 @@ footer{
 
       }
     .conclusion_contacto a{
-      width: 320px;
+      width: 300px;
       background-color: var(--color-primario);
       color: var(--color-fondo);
       text-align: center;
