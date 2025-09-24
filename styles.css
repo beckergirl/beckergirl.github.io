@@ -1211,10 +1211,12 @@ footer{
 
       }
     .conclusion_contacto a{
+      width: 320px;
       background-color: var(--color-primario);
       color: var(--color-fondo);
       text-align: center;
-      padding: 10px;
+      margin:0 auto;
+      padding: 15px;
       font-family: var(--fuente-secundaria);
       font-weight: 100;
       font-size: 18px;
