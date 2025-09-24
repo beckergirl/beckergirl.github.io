@@ -47,15 +47,6 @@
   --p-size: clamp(18px, 22px, 25px);
   --p-line_height:clamp(28px, 32px, 35px);
 
-  /* Espaciado */
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 2rem;
-
-  /* Bordes y sombras */
-  --border-radius: 8px;
-  --shadow-soft: 0 4px 8px rgba(0,0,0,0.1);
-
 }
 *{
   padding: 0;
