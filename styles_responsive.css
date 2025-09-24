@@ -2,12 +2,12 @@
 @media(min-width:1500px){
 /* index */
     .navbar_portada a{
-     font-size: 24px;
+     font-size: 25px;
 
     }
 /* portfolio */
     .navbar a{
-     font-size: 24px;
+     font-size: 25px;
     
     }
     .bloque{
@@ -20,13 +20,13 @@
           width: 80%;
 
     } 
-         .bloque_imagen::before {
-             height: 85%;
-             width: 80%;
-             object-fit: cover;
-             border-radius: 10px;
+    .bloque_imagen::before {
+        height: 85%;
+        width: 80%;
+        object-fit: cover;
+        border-radius: 10px;
 
-        }
+    }
     #texto{
     display: flex;
     flex-direction: column;
@@ -201,6 +201,9 @@
         font-size: 18px;
 
     }
+    #navbar a{
+        font-size: 18px;
+    }
     .intro{
         width: 80%;
     
@@ -240,11 +243,8 @@
              width: 70vw;
     
         }
-        .conclusion_contacto a{
-        width: 70vw;
-        
-        }
-}
+         .conclusion_contacto a{
+            width: 100%;
         
         }
     .footer_nav a{
@@ -286,10 +286,6 @@
 }
 @media(max-width:606px){
 /* index */
-    .conclusion_parrafo p{
-      width: 70%;
-
-    }
     .footer_nav{
         width: 75%;
 
@@ -310,10 +306,6 @@
     .formulario{
         width: 80%;
       
-    }
-    #button{
-        width:100%;
-    
     }
 /* work */
     .bloque{
@@ -370,6 +362,10 @@
     }
 }
 @media(max-width:480px){/* Samsung Galaxy Note 5 / 9 */
+    .navbar a{
+    font-size:20px;
+  
+  }
 
     .portada{
     animation: reveal_responsive 2s ease forwards;
@@ -659,7 +655,11 @@
         
     }
      #mensaje textarea{
-            width: 70%;
+        width: 70%;
+
+    }
+    #button{
+        width:100%;
 
     }
     /* work / página Rocio Guerrero */
@@ -716,6 +716,10 @@
              
 @media(max-width:443px){/* Samsung Galaxy Note 5 / 9 */
     /* index */
+    .navbar a{
+    font-size:18px;
+  
+    }
     .intro{
         width: 85%;
  
@@ -822,7 +826,7 @@
 
     }
     .navbar a{
-        font-size: 16px;
+        font-size: 14px;
 
     }
 /* work / páginas */
